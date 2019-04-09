@@ -37,3 +37,16 @@ main {
   li:first-of-type > .score {
     color: white;
   }
+
+#loadingDiv {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:#F8F7EE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
