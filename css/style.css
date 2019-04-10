@@ -37,7 +37,11 @@ main {
   li:first-of-type > .score {
     color: white;
   }
-
+  #bm {
+    width:100px;
+    height:1000px;
+    margin:auto;
+  }
 #loader {
     position:absolute;
     top:0;
