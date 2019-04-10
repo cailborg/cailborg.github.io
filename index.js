@@ -83,10 +83,10 @@ const teams = [
 
 // Loop over each of the teams & player IDs and push to our Output array
 const playerLoop = async function(teams) {
-    await teams.map(function(team) {
+    return await Promise.all(teams.map(function(team) {
         // Looping over the array of players should fill this array with results
         let output = []
-        Promise.all(team.players.map(async (playerID) => {
+        return Promise.all(team.players.map(async (playerID) => {
             let contents = await nbaFetch(playerID)
             output.push(contents)
             // Wait till all the iterations have completed and process the results
@@ -96,16 +96,28 @@ const playerLoop = async function(teams) {
             output.pop();
             // Calculate sum of remaining numbers
             let sum = output.reduce( (a, b) => { return a + b}, 0);
-            console.log(team.name, sum)
-            var d1 = document.getElementById('table');
-            d1.insertAdjacentHTML('beforeend', '<li>' + team.name + '<span class="score">' + sum + '</span>' + '</li>');
-            // var d1 = document.getElementById('test');
-            // d1.insertAdjacentHTML('beforeend', '<tr>' + '<td>' + team.name + '</td>' + '<td>' + sum + '</td>' + '</tr>');
+            let total = [team.name, sum]
+            return total
         }, function(err) {
             // error occurred
         });
-    });
+    }));
 }
 
-// Trigger the function
-playerLoop(teams)
+//Return all the sums and then do something
+
+async function main(){
+    let score = await playerLoop(teams);
+    var location = document.getElementsByTagName("main")[0];
+    var html = "<ul id=" + "table" + ">";
+    for (var i = 0; i < score.length; i++) {
+        html += "<li>" + score[i][0] + "<span class=" + "score>" + score[i][1] + "</span>" + "</li>";
+    }
+    html += "</ul>";
+    location.innerHTML = html;
+    document.getElementById("loader").classList.add("fade");
+  };
+
+//Trigger the function
+main()
+

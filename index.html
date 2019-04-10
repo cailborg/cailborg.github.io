@@ -10,22 +10,10 @@
     <link href="https://fonts.googleapis.com/css?family=Teko:400,700" rel="stylesheet">
     </head>
     <body>
+        <div id="loader"><img src="loader.gif"/>Calculating Scores</div>
         <main>
             <ul id="table"></ul>
         </main>
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
         <script src="index.js"></script>
-        <script>
-            $('body').append('<div style="" id="loadingDiv"><img src="loader.gif" class="loader">Calculating Stats</div></div>');
-            $(window).on('load', function(){
-            setTimeout(removeLoader, 15000); //wait for page load PLUS two seconds.
-            });
-            function removeLoader(){
-                $( "#loadingDiv" ).fadeOut(500, function() {
-                // fadeOut complete. Remove the loading div
-                $( "#loadingDiv" ).remove(); //makes page more lightweight 
-            });  
-            }
-        </script>
     </body>
 </html>

@@ -38,7 +38,7 @@ main {
     color: white;
   }
 
-#loadingDiv {
+#loader {
     position:absolute;
     top:0;
     left:0;
@@ -50,4 +50,9 @@ main {
     align-items: center;
     justify-content: center;
     font-size: 1.4em;
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+.fade {
+    opacity: 0 !important; 
 }
