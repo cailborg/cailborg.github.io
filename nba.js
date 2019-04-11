@@ -108,7 +108,7 @@ const playerLoop = async function(teams) {
 
 async function main(){
     let score = await playerLoop(teams);
-    var location = document.getElementsByTagName("main")[0];
+    var location = document.getElementById("container");
     var html = "<ul id=" + "table" + ">";
     for (var i = 0; i < score.length; i++) {
         html += "<li>" + score[i][0] + "<span class=" + "score>" + score[i][1] + "</span>" + "</li>";
