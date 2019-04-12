@@ -24,23 +24,35 @@ main {
   }
   li {
       display: flex;
+      flex-direction: column;
+      padding: 24px 16px 24px 16px;
+      margin-bottom: 24px;
+      background: white;
+      border-radius: 12px;
+      color: #061344;
+  }
+  li > div {
+      display: flex;
       flex-direction: row;
       justify-content: space-between;
-      padding: 24px 16px 24px 16px;
-      margin-bottom: 16px;
-      background: white;
-      border-radius: 8px;
-      color: #061344;
   }
   .score {
       color: #116DF9;
   }
+  .players {
+      font-size: 0.5em;
+      background: #edece3;
+      color: #061344;
+      margin: 24px -16px -24px;
+      padding: 16px;
+      border-radius: 0px 0px 8px 8px;
+  }
   li:first-of-type {
       background: #FB0A56;
-      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      /* box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.2); */
       color: white;
   }
-  li:first-of-type > .score {
+  li:first-of-type > div .score {
     color: white;
   }
   #bm {

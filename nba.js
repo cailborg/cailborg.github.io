@@ -18,6 +18,7 @@ async function nbaFetch(playerID){
 
     let nbaFileStruct = await playerdashboardbygeneralsplits.json()
     let game = nbaFileStruct.data
+    let name = nbaFileStruct.data[3].player.first_name + " " + nbaFileStruct.data[3].player.last_name
 // Loop through each game to grab each stat and push them into an array
     let assists = []
     let points = []
@@ -42,7 +43,8 @@ async function nbaFetch(playerID){
     let sumTOV = tov.reduce( (a, b) => { return a + b}, 0);
 // Add the results and the custom multipliers to get a total points for each player
     let total = sumPoints + sumAssists*1.5 + sumRebounds*1.5 + sumSteals*2 + sumBlocks*2 - sumTOV*2
-    return total
+    // console.log(total, name)
+    return [total, " " + name]
 }
 
 // Team names and player IDs for each go here
@@ -86,9 +88,11 @@ const playerLoop = async function(teams) {
     return await Promise.all(teams.map(function(team) {
         // Looping over the array of players should fill this array with results
         let output = []
+        let playerNames = []
         return Promise.all(team.players.map(async (playerID) => {
             let contents = await nbaFetch(playerID)
-            output.push(contents)
+            output.push(contents[0])
+            playerNames.push(contents[1])
             // Wait till all the iterations have completed and process the results
         })).then(function() {
             // Sort numerically and remove smallest number
@@ -96,7 +100,8 @@ const playerLoop = async function(teams) {
             output.pop();
             // Calculate sum of remaining numbers
             let sum = output.reduce( (a, b) => { return a + b}, 0);
-            let total = [team.name, sum]
+            let total = [team.name, sum, playerNames]
+            // console.log(playernames)
             return total
         }, function(err) {
             // error occurred
@@ -111,7 +116,7 @@ async function main(){
     var location = document.getElementById("container");
     var html = "<ul id=" + "table" + ">";
     for (var i = 0; i < score.length; i++) {
-        html += "<li>" + score[i][0] + "<span class=" + "score>" + score[i][1] + "</span>" + "</li>";
+        html += "<li>" + "<div>" + score[i][0] + "<span class=" + "score>" + score[i][1] + "</span>" + "</div>" + "<span class=" + "players>" + score[i][2] + "</span>" + "</li>";
     }
     html += "</ul>";
     location.innerHTML = html;
