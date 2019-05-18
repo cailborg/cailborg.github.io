@@ -19,6 +19,17 @@
                 <ul id="table"></ul>
             </div>
         </main>
+        <script src="https://www.gstatic.com/firebasejs/5.10.0/firebase.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.9.4/firebase-firestore.js"></script>
+        <script>
+        firebase.initializeApp({
+        apiKey: 'AIzaSyCyPnRIUnJta8rxg5OFuabvPd7yvyBWUoU',
+        authDomain: 'fantasybasketball-101b0.firebaseapp.com',
+        projectId: 'fantasybasketball-101b0'
+        });
+
+        var db = firebase.firestore();
+        </script>
         <script src="nba.js"></script>
         <script
             src="https://code.jquery.com/jquery-3.3.1.min.js"
@@ -30,7 +41,7 @@
                     .toggleClass("show");
             });
         </script>
-        <script src="scripts/lottie.js"></script>
-        <script src="scripts/loader.js"></script>
+        <!-- <script src="scripts/lottie.js"></script>
+        <script src="scripts/loader.js"></script> -->
     </body>
 </html>

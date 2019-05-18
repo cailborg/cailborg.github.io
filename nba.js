@@ -1,11 +1,29 @@
 
 //This file works when called within a static HTML page
 
-
+async function getTeams(){
+    var docRef = db.collection("teams").doc("teamDocument");
+    let teams = await docRef.get().then(function(doc) {
+            if (doc.exists) {
+                console.log("Document data:", doc.data().team);
+                let teams = doc.data().team
+                return teams
+            } else {
+                // doc.data() will be undefined in this case
+                console.log("No such document!");
+            }
+            
+        }).catch(function(error) {
+            console.log("Error getting document:", error);
+        });
+    console.log ("test", teams)
+    return teams
+  };
+  
 // Load in the right json object based on the player ID and calculate points
 
 async function nbaFetch(playerID){
-    let playerdashboardbygeneralsplits = await fetch('https://www.balldontlie.io/api/v1/stats?seasons[]=2018&per_page=100&player_ids[]=' + playerID + '&postseason=false', {
+    let playerdashboardbygeneralsplits = await fetch('https://www.balldontlie.io/api/v1/stats?seasons[]=2018&per_page=150&player_ids[]=' + playerID + '&postseason=false', {
         mode: 'cors',
         method: "GET",
         headers: {     
@@ -43,48 +61,13 @@ async function nbaFetch(playerID){
     let sumTOV = tov.reduce( (a, b) => { return a + b}, 0);
 // Add the results and the custom multipliers to get a total points for each player
     let total = sumPoints + sumAssists*1.5 + sumRebounds*1.5 + sumSteals*2 + sumBlocks*2 - sumTOV*2
-    // console.log(total, name)
+    // console.log(total, sumPoints, sumRebounds, sumAssists, sumSteals, sumBlocks, sumTOV, name)
     return [total, "<br>" + name, "<br>" + total]
 }
 
-// Team names and player IDs for each go here
-const teams = [
-    {
-        name: 'Byron',
-        players: ["192", "278", "176", "172", "37", "335"]
-    },
-    {
-        name: 'Moir',
-        players: ["15", "447", "460", "405", "3", "79"]
-    },
-    {
-        name: 'Cail',
-        players: ["137", "246", "349", "214", "200", "51"]
-    },
-    {
-        name: 'Boyd',
-        players: ["417", "125", "228", "472", "132", "474"]
-    },
-    {
-        name: 'Mick',
-        players: ["117", "274", "6", "387", "268", "210"]
-    },
-    {
-        name: 'Tex',
-        players: ["140", "22", "169", "115", "322", "303"]
-    },
-    {
-        name: 'Trev',
-        players: ["145", "189", "443", "434", "83", "318"]
-    },
-    {
-        name: 'Scott',
-        players: ["237", "161", "465", "253", "315", "101"]
-    }
-];
-
 // Loop over each of the teams & player IDs and push to our Output array
 const playerLoop = async function(teams) {
+    console.log("firebase", teams)
     return await Promise.all(teams.map(function(team) {
         // Looping over the array of players should fill this array with results
         let output = []
@@ -106,6 +89,7 @@ const playerLoop = async function(teams) {
             return total
         }, function(err) {
             // error occurred
+            console.log('broken')
         });
     }));
 }
@@ -113,6 +97,8 @@ const playerLoop = async function(teams) {
 //Return all the sums and then do something
 
 async function main(){
+    const teams = await getTeams();
+    teams.join();
     let score = await playerLoop(teams);
     var location = document.getElementById("container");
     var html = "<ul id=" + "table" + ">";
