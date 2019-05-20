@@ -1,22 +1,14 @@
 
 //This file works when called within a static HTML page
 
-async function getTeams(){
-    var docRef = db.collection("teams").doc("teamDocument");
-    let teams = await docRef.get().then(function(doc) {
-            if (doc.exists) {
-                console.log("Document data:", doc.data().team);
-                let teams = doc.data().team
-                return teams
-            } else {
-                // doc.data() will be undefined in this case
-                console.log("No such document!");
-            }
-            
-        }).catch(function(error) {
-            console.log("Error getting document:", error);
+  async function getTeams(){
+    let teams = await db.collection("dudes").get().then(function(querySnapshot) {
+        let collect = []
+        querySnapshot.forEach(function(doc) {
+            collect.push([doc.id, doc.data().players])
         });
-    console.log ("test", teams)
+        return collect
+    });
     return teams
   };
   
@@ -61,7 +53,6 @@ async function nbaFetch(playerID){
     let sumTOV = tov.reduce( (a, b) => { return a + b}, 0);
 // Add the results and the custom multipliers to get a total points for each player
     let total = sumPoints + sumAssists*1.5 + sumRebounds*1.5 + sumSteals*2 + sumBlocks*2 - sumTOV*2
-    // console.log(total, sumPoints, sumRebounds, sumAssists, sumSteals, sumBlocks, sumTOV, name)
     return [total, "<br>" + name, "<br>" + total]
 }
 
@@ -73,7 +64,7 @@ const playerLoop = async function(teams) {
         let output = []
         let playerScores = []
         let playerNames = []
-        return Promise.all(team.players.map(async (playerID) => {
+        return Promise.all(team[1].map(async (playerID) => {
             let contents = await nbaFetch(playerID)
             output.push(contents[0])
             playerScores.push(contents[2])
@@ -85,7 +76,7 @@ const playerLoop = async function(teams) {
             output.pop();
             // Calculate sum of remaining numbers
             let sum = output.reduce( (a, b) => { return a + b}, 0);
-            let total = [team.name, sum, playerNames, playerScores]
+            let total = [team[0], sum, playerNames, playerScores]
             return total
         }, function(err) {
             // error occurred
@@ -98,7 +89,7 @@ const playerLoop = async function(teams) {
 
 async function main(){
     const teams = await getTeams();
-    teams.join();
+    // teams.join();
     let score = await playerLoop(teams);
     var location = document.getElementById("container");
     var html = "<ul id=" + "table" + ">";
