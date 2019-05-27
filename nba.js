@@ -58,7 +58,6 @@ async function nbaFetch(playerID){
 
 // Loop over each of the teams & player IDs and push to our Output array
 const playerLoop = async function(teams) {
-    console.log("firebase", teams)
     return await Promise.all(teams.map(function(team) {
         // Looping over the array of players should fill this array with results
         let output = []
@@ -91,6 +90,14 @@ async function main(){
     const teams = await getTeams();
     // teams.join();
     let score = await playerLoop(teams);
+    function sortJSON(data, key) {
+        return data.sort(function (a, b) {
+            var x = a[key];
+            var y = b[key];
+            return ((x > y) ? -1 : ((x < y) ? 1 : 0));
+        });
+    }
+    sorted = sortJSON(score, [1]);
     var location = document.getElementById("container");
     var html = "<ul id=" + "table" + ">";
     for (var i = 0; i < score.length; i++) {
