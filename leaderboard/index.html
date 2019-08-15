@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title>NBA Scoreboard</title>
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:image" content="share.png">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Teko:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    </head>
+    <body>
+        <div id="loader"><div id="bm"></div>Calculating Scores</div>
+        <main>
+            <img src="logo.svg"/>
+            <div id="container">
+                <ul id="table"></ul>
+            </div>
+        </main>
+        <script src="https://www.gstatic.com/firebasejs/5.10.0/firebase.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.9.4/firebase-firestore.js"></script>
+        <script>
+        firebase.initializeApp({
+        apiKey: 'AIzaSyCyPnRIUnJta8rxg5OFuabvPd7yvyBWUoU',
+        authDomain: 'fantasybasketball-101b0.firebaseapp.com',
+        projectId: 'fantasybasketball-101b0'
+        });
+
+        var db = firebase.firestore();
+        </script>
+        <script src="nba.js"></script>
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+        <script>
+            $("body").on("click",".trigger",function(e){
+                $(this).children('.players').first()
+                    .toggleClass("show");
+            });
+        </script>
+        <script src="scripts/lottie.js"></script>
+        <script src="scripts/loader.js"></script>
+    </body>
+</html>
