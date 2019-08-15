@@ -63,6 +63,14 @@ const playerLoop = async function(teams) {
         let output = []
         let playerScores = []
         let playerNames = []
+        // console.log(team)
+        // console.log(Object.values(team, "team"))
+        // let test = Object.entries(team).flat()
+        // console.log(test, "test")
+        // console.log(test[1], "test name")
+        // let test2 = Object.values(test[3]).flat()
+        // console.log(test2, "test2")
+        
         return Promise.all(team[1].map(async (playerID) => {
             let contents = await nbaFetch(playerID)
             output.push(contents[0])
@@ -88,7 +96,6 @@ const playerLoop = async function(teams) {
 
 async function main(){
     const teams = await getTeams();
-    // teams.join();
     let score = await playerLoop(teams);
     function sortJSON(data, key) {
         return data.sort(function (a, b) {
@@ -105,7 +112,6 @@ async function main(){
     }
     html += "</ul>";
     location.innerHTML = html;
-    // document.getElementById("loader").classList.add("fade");
     document.getElementById("loader").remove();
   };
 
