@@ -1,7 +1,7 @@
 
 //This file works when called within a static HTML page
 
-  async function getTeams(){
+async function getTeams(){
     let teams = await db.collection("dudes").get().then(function(querySnapshot) {
         let collect = []
         querySnapshot.forEach(function(doc) {
@@ -29,6 +29,7 @@ async function nbaFetch(playerID){
     let nbaFileStruct = await playerdashboardbygeneralsplits.json()
     let game = nbaFileStruct.data
     let name = nbaFileStruct.data[3].player.first_name + " " + nbaFileStruct.data[3].player.last_name
+    let id = nbaFileStruct.data[3].player.id
 // Loop through each game to grab each stat and push them into an array
     let assists = []
     let points = []
@@ -53,7 +54,7 @@ async function nbaFetch(playerID){
     let sumTOV = tov.reduce( (a, b) => { return a + b}, 0);
 // Add the results and the custom multipliers to get a total points for each player
     let total = sumPoints + sumAssists*1.5 + sumRebounds*1.5 + sumSteals*2 + sumBlocks*2 - sumTOV*2
-    return [total, "<br>" + name, "<br>" + total]
+    return [total, "<br>" + name, "<br>" + total, " (" + id + ")"]
 }
 
 // Loop over each of the teams & player IDs and push to our Output array
@@ -63,19 +64,12 @@ const playerLoop = async function(teams) {
         let output = []
         let playerScores = []
         let playerNames = []
-        // console.log(team)
-        // console.log(Object.values(team, "team"))
-        // let test = Object.entries(team).flat()
-        // console.log(test, "test")
-        // console.log(test[1], "test name")
-        // let test2 = Object.values(test[3]).flat()
-        // console.log(test2, "test2")
-        
         return Promise.all(team[1].map(async (playerID) => {
             let contents = await nbaFetch(playerID)
+            // console.log(contents)
             output.push(contents[0])
             playerScores.push(contents[2])
-            playerNames.push(contents[1])
+            playerNames.push(contents[1] + contents[3])
             // Wait till all the iterations have completed and process the results
         })).then(function() {
             // Sort numerically and remove smallest number
@@ -87,7 +81,7 @@ const playerLoop = async function(teams) {
             return total
         }, function(err) {
             // error occurred
-            console.log('broken')
+            console.log('A selected player has not played this season')
         });
     }));
 }
@@ -97,6 +91,7 @@ const playerLoop = async function(teams) {
 async function main(){
     const teams = await getTeams();
     let score = await playerLoop(teams);
+    // console.log(score)
     function sortJSON(data, key) {
         return data.sort(function (a, b) {
             var x = a[key];
