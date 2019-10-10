@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = [[module.i, "/* You can add global styles to this file, and also import other style files */\nbody {\n  background-color: #F8F7EE;\n  font-family: 'Lato', sans-serif;\n  text-transform: uppercase;\n  font-size: 16px;\n  color: #061344;\n  margin: 0; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9ib3JnY2EvUmVwby9uYmEtdXBkYXRlL3NyYy9zdHlsZXMuc2FzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSw4RUFBQTtBQUNBO0VBQ0kseUJBQXlCO0VBQ3pCLCtCQUErQjtFQUMvQix5QkFBeUI7RUFDekIsZUFBZTtFQUNmLGNBQWM7RUFDZCxTQUFTLEVBQUEiLCJmaWxlIjoic3JjL3N0eWxlcy5zYXNzIiwic291cmNlc0NvbnRlbnQiOlsiLyogWW91IGNhbiBhZGQgZ2xvYmFsIHN0eWxlcyB0byB0aGlzIGZpbGUsIGFuZCBhbHNvIGltcG9ydCBvdGhlciBzdHlsZSBmaWxlcyAqL1xuYm9keSB7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogI0Y4RjdFRTtcbiAgICBmb250LWZhbWlseTogJ0xhdG8nLCBzYW5zLXNlcmlmO1xuICAgIHRleHQtdHJhbnNmb3JtOiB1cHBlcmNhc2U7XG4gICAgZm9udC1zaXplOiAxNnB4O1xuICAgIGNvbG9yOiAjMDYxMzQ0O1xuICAgIG1hcmdpbjogMDsgfVxuIl19 */", '', '']]
+module.exports = [[module.i, "/* You can add global styles to this file, and also import other style files */\nbody {\n  background-color: #F8F7EE;\n  font-family: 'Lato', sans-serif;\n  text-transform: uppercase;\n  font-size: 16px;\n  color: #061344;\n  margin: 0; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9DOlxcVXNlcnNcXGNhaWxiXFxEb2N1bWVudHNcXG5iYS11cGRhdGUvc3JjXFxzdHlsZXMuc2FzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSw4RUFBQTtBQUNBO0VBQ0kseUJBQXlCO0VBQ3pCLCtCQUErQjtFQUMvQix5QkFBeUI7RUFDekIsZUFBZTtFQUNmLGNBQWM7RUFDZCxTQUFTLEVBQUEiLCJmaWxlIjoic3JjL3N0eWxlcy5zYXNzIiwic291cmNlc0NvbnRlbnQiOlsiLyogWW91IGNhbiBhZGQgZ2xvYmFsIHN0eWxlcyB0byB0aGlzIGZpbGUsIGFuZCBhbHNvIGltcG9ydCBvdGhlciBzdHlsZSBmaWxlcyAqL1xuYm9keSB7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogI0Y4RjdFRTtcbiAgICBmb250LWZhbWlseTogJ0xhdG8nLCBzYW5zLXNlcmlmO1xuICAgIHRleHQtdHJhbnNmb3JtOiB1cHBlcmNhc2U7XG4gICAgZm9udC1zaXplOiAxNnB4O1xuICAgIGNvbG9yOiAjMDYxMzQ0O1xuICAgIG1hcmdpbjogMDsgfVxuIl19 */", '', '']]
 
 /***/ }),
 
@@ -557,7 +557,7 @@ if(false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/borgca/Repo/nba-update/src/styles.sass */"./src/styles.sass");
+module.exports = __webpack_require__(/*! C:\Users\cailb\Documents\nba-update\src\styles.sass */"./src/styles.sass");
 
 
 /***/ })
