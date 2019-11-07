@@ -1,9 +1,17 @@
+/* colour scheme
+#ffffff
+#e5e5e5
+#0e1428
+#d95d39
+#fca311 */
+
 body {
-  background-color: #f8f7ee;
+  background-color: #e5e5e5;
+  color: #0e1428;
   font-family: "Teko", sans-serif;
   text-transform: uppercase;
   font-size: 16px;
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
 }
 img {
   width: 200px;
@@ -11,30 +19,50 @@ img {
   margin: 2rem auto 2rem auto;
 }
 .main {
+  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
+  padding: 0 24px 0 24px;
 }
 
-.main li {
+.card {
   width: 24rem;
-  height: 4rem;
   display: flex;
+  flex-direction: column;
   margin-bottom: 1rem;
-  background: white;
-  border-radius: 0.25rem;
-  padding: 0 1rem 0 1rem;
-  justify-content: space-between;
+  background: #ffffff;
+  border-radius: 0.5rem;
   font-size: 1.5rem;
 }
-
-.main li:first-of-type {
-  background: #fb0a56;
+.card:first-of-type {
+  position: relative;
+}
+.card:first-of-type .card-heading {
+  background: #d95d39;
+}
+.card:first-of-type::before {
+  content: " ";
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  border-radius: 3rem;
+  width: 3rem;
+  height: 3rem;
+  background-image: url("../assets/crown.svg");
+  background-size: contain;
+  /* background: #fca311; */
+}
+.card-heading {
+  background: #0e1428;
+  padding: 1rem;
+  border-radius: 0.5rem 0.5rem 0 0;
   color: white;
 }
-
-.main li span {
-  display: flex;
-  align-items: center;
+h1 {
+  margin: 0px;
+}
+.card-bottom {
+  padding: 2rem;
 }

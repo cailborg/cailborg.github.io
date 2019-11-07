@@ -108,7 +108,7 @@ for (var team in teams) {
 
 // Do something with scores
 scores.sort((a, b) => b[1] - a[1]);
-// console.log("scores", scores);
+console.log("scores", scores);
 
 // Create HTML
 
@@ -117,11 +117,11 @@ function buildHtml() {
     "<link rel=" +
     "stylesheet " +
     "href=" +
-    "css/style.css />" +
+    "css/normalize.css />" +
     "<link rel=" +
     "stylesheet " +
     "href=" +
-    "css/normalize.css />" +
+    "css/style.css />" +
     "<link href=" +
     "https://fonts.googleapis.com/css?family=Teko&display=swap " +
     "rel=" +
@@ -146,14 +146,24 @@ function content(scores) {
   var result = "";
   for (let value of scores) {
     result +=
-      "<li>" +
+      "<div class=" +
+      "card>" +
+      "<div class=" +
+      "card-heading>" +
       "<span>" +
       value[0] +
       "</span>" +
-      "<span>" +
+      "<h1>" +
       value[1] +
-      "</span>" +
-      "</li>";
+      "</h1>" +
+      "</div>" +
+      "<div class=" +
+      "card-bottom>" +
+      value[2] +
+      " " +
+      value[3] +
+      "</div>" +
+      "</div>";
   }
   return result;
 }
@@ -166,4 +176,5 @@ stream.once("open", function(fd) {
   var html = buildHtml();
 
   stream.end(html);
+  console.log("Build complete");
 });
