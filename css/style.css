@@ -14,8 +14,8 @@ body {
   padding-bottom: 2rem;
 }
 img {
-  width: 200px;
-  height: 200px;
+  width: 50%;
+  height: auto;
   margin: 2rem auto 2rem auto;
 }
 .main {
@@ -28,13 +28,13 @@ img {
 }
 
 .card {
-  width: 24rem;
+  width: 75%;
   display: flex;
   flex-direction: column;
-  margin-bottom: 1rem;
+  margin-bottom: 4rem;
   background: #ffffff;
   border-radius: 0.5rem;
-  font-size: 1.5rem;
+  font-size: 3rem;
 }
 .card:first-of-type {
   position: relative;
@@ -45,8 +45,8 @@ img {
 .card:first-of-type::before {
   content: " ";
   position: absolute;
-  top: 24px;
-  left: 24px;
+  top: 1.5rem;
+  left: 1.5rem;
   border-radius: 3rem;
   width: 3rem;
   height: 3rem;
@@ -56,7 +56,7 @@ img {
 }
 .card-heading {
   background: #0e1428;
-  padding: 1rem;
+  padding: 3rem;
   border-radius: 0.5rem 0.5rem 0 0;
   color: white;
 }
@@ -64,5 +64,26 @@ h1 {
   margin: 0px;
 }
 .card-bottom {
-  padding: 2rem;
+  padding: 3rem 2rem 3rem 2rem;
+}
+
+@media screen and (min-width: 600px) {
+  img {
+    width: 200px;
+    height: auto;
+  }
+  .card {
+    width: 32rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+  }
+  .card:first-of-type::before {
+    top: 1.5rem;
+    left: 1.5rem;
+    width: 3rem;
+    height: 3rem;
+    /* background: #fca311; */
+  }
 }
