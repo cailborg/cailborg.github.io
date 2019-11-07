@@ -1,0 +1,40 @@
+body {
+  background-color: #f8f7ee;
+  font-family: "Teko", sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+  padding-bottom: 4rem;
+}
+img {
+  width: 200px;
+  height: 200px;
+  margin: 2rem auto 2rem auto;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.main li {
+  width: 24rem;
+  height: 4rem;
+  display: flex;
+  margin-bottom: 1rem;
+  background: white;
+  border-radius: 0.25rem;
+  padding: 0 1rem 0 1rem;
+  justify-content: space-between;
+  font-size: 1.5rem;
+}
+
+.main li:first-of-type {
+  background: #fb0a56;
+  color: white;
+}
+
+.main li span {
+  display: flex;
+  align-items: center;
+}

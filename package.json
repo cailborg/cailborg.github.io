@@ -1,0 +1,14 @@
+{
+  "name": "nba-leaderboard",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/cailborg/nba-leaderboard.git",
+  "author": "Cail Borg <Cail.Borg@ofx.com>",
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  }
+}

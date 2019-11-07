@@ -1,0 +1,4032 @@
+[
+    {
+        "playerName": "Steven Adams",
+        "position": "C",
+        "points": "24",
+        "rebounds": "47",
+        "assists": "6",
+        "steals": "2",
+        "blocks": "3",
+        "turnovers": "5"
+    },
+    {
+        "playerName": "Bam Adebayo",
+        "position": "C",
+        "points": "75",
+        "rebounds": "49",
+        "assists": "26",
+        "steals": "6",
+        "blocks": "9",
+        "turnovers": "13"
+    },
+    {
+        "playerName": "LaMarcus Aldridge",
+        "position": "C",
+        "points": "91",
+        "rebounds": "37",
+        "assists": "10",
+        "steals": "2",
+        "blocks": "11",
+        "turnovers": "12"
+    },
+    {
+        "playerName": "Nickeil Alexander-Walker",
+        "position": "SG",
+        "points": "30",
+        "rebounds": "16",
+        "assists": "20",
+        "steals": "3",
+        "blocks": "0",
+        "turnovers": "4"
+    },
+    {
+        "playerName": "Grayson Allen",
+        "position": "SG",
+        "points": "37",
+        "rebounds": "10",
+        "assists": "8",
+        "steals": "2",
+        "blocks": "0",
+        "turnovers": "7"
+    },
+    {
+        "playerName": "Jarrett Allen",
+        "position": "C",
+        "points": "46",
+        "rebounds": "58",
+        "assists": "6",
+        "steals": "2",
+        "blocks": "9",
+        "turnovers": "8"
+    },
+    {
+        "playerName": "Al-Farouq Aminu",
+        "position": "PF",
+        "points": "25",
+        "rebounds": "39",
+        "assists": "6",
+        "steals": "6",
+        "blocks": "5",
+        "turnovers": "7"
+    },
+    {
+        "playerName": "Kyle Anderson",
+        "position": "SF",
+        "points": "36",
+        "rebounds": "24",
+        "assists": "10",
+        "steals": "4",
+        "blocks": "5",
+        "turnovers": "4"
+    },
+    {
+        "playerName": "Ryan Anderson",
+        "position": "PF",
+        "points": "3",
+        "rebounds": "1",
+        "assists": "0",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "0"
+    },
+    {
+        "playerName": "Giannis Antetokounmpo",
+        "position": "PF",
+        "points": "160",
+        "rebounds": "83",
+        "assists": "46",
+        "steals": "8",
+        "blocks": "11",
+        "turnovers": "26"
+    },
+    {
+        "playerName": "Kostas Antetokounmpo",
+        "position": "PF",
+        "points": "0",
+        "rebounds": "1",
+        "assists": "0",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "0"
+    },
+    {
+        "playerName": "Thanasis Antetokounmpo",
+        "position": "SF",
+        "points": "2",
+        "rebounds": "2",
+        "assists": "1",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "0"
+    },
+    {
+        "playerName": "OG Anunoby",
+        "position": "SF",
+        "points": "71",
+        "rebounds": "40",
+        "assists": "8",
+        "steals": "10",
+        "blocks": "9",
+        "turnovers": "7"
+    },
+    {
+        "playerName": "Ryan Arcidiacono",
+        "position": "PG",
+        "points": "25",
+        "rebounds": "11",
+        "assists": "11",
+        "steals": "2",
+        "blocks": "0",
+        "turnovers": "1"
+    },
+    {
+        "playerName": "Trevor Ariza",
+        "position": "SF",
+        "points": "19",
+        "rebounds": "25",
+        "assists": "7",
+        "steals": "4",
+        "blocks": "0",
+        "turnovers": "2"
+    },
+    {
+        "playerName": "D.J. Augustin",
+        "position": "PG",
+        "points": "46",
+        "rebounds": "10",
+        "assists": "26",
+        "steals": "1",
+        "blocks": "0",
+        "turnovers": "5"
+    },
+    {
+        "playerName": "Deandre Ayton",
+        "position": "C",
+        "points": "18",
+        "rebounds": "11",
+        "assists": "0",
+        "steals": "1",
+        "blocks": "4",
+        "turnovers": "0"
+    },
+    {
+        "playerName": "Dwayne Bacon",
+        "position": "SG",
+        "points": "78",
+        "rebounds": "27",
+        "assists": "12",
+        "steals": "6",
+        "blocks": "0",
+        "turnovers": "9"
+    },
+    {
+        "playerName": "Marvin Bagley",
+        "position": "PF",
+        "points": "14",
+        "rebounds": "10",
+        "assists": "0",
+        "steals": "1",
+        "blocks": "1",
+        "turnovers": "1"
+    },
+    {
+        "playerName": "Lonzo Ball",
+        "position": "PG",
+        "points": "72",
+        "rebounds": "30",
+        "assists": "44",
+        "steals": "11",
+        "blocks": "1",
+        "turnovers": "13"
+    },
+    {
+        "playerName": "Mo Bamba",
+        "position": "C",
+        "points": "24",
+        "rebounds": "23",
+        "assists": "2",
+        "steals": "1",
+        "blocks": "2",
+        "turnovers": "4"
+    },
+    {
+        "playerName": "Harrison Barnes",
+        "position": "SF",
+        "points": "79",
+        "rebounds": "35",
+        "assists": "7",
+        "steals": "9",
+        "blocks": "0",
+        "turnovers": "7"
+    },
+    {
+        "playerName": "RJ Barrett",
+        "position": "SG",
+        "points": "106",
+        "rebounds": "39",
+        "assists": "20",
+        "steals": "9",
+        "blocks": "2",
+        "turnovers": "18"
+    },
+    {
+        "playerName": "Will Barton",
+        "position": "SG",
+        "points": "56",
+        "rebounds": "25",
+        "assists": "6",
+        "steals": "5",
+        "blocks": "4",
+        "turnovers": "5"
+    },
+    {
+        "playerName": "Nicolas Batum",
+        "position": "SF",
+        "points": "0",
+        "rebounds": "4",
+        "assists": "2",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "2"
+    },
+    {
+        "playerName": "Aron Baynes",
+        "position": "C",
+        "points": "90",
+        "rebounds": "34",
+        "assists": "19",
+        "steals": "2",
+        "blocks": "5",
+        "turnovers": "7"
+    },
+    {
+        "playerName": "Kent Bazemore",
+        "position": "SF",
+        "points": "48",
+        "rebounds": "29",
+        "assists": "8",
+        "steals": "7",
+        "blocks": "7",
+        "turnovers": "9"
+    },
+    {
+        "playerName": "Darius Bazley",
+        "position": "PF",
+        "points": "30",
+        "rebounds": "23",
+        "assists": "3",
+        "steals": "1",
+        "blocks": "2",
+        "turnovers": "9"
+    },
+    {
+        "playerName": "Bradley Beal",
+        "position": "SG",
+        "points": "137",
+        "rebounds": "23",
+        "assists": "32",
+        "steals": "8",
+        "blocks": "2",
+        "turnovers": "19"
+    },
+    {
+        "playerName": "Malik Beasley",
+        "position": "SG",
+        "points": "52",
+        "rebounds": "9",
+        "assists": "5",
+        "steals": "6",
+        "blocks": "1",
+        "turnovers": "8"
+    },
+    {
+        "playerName": "Marco Belinelli",
+        "position": "SG",
+        "points": "23",
+        "rebounds": "4",
+        "assists": "7",
+        "steals": "2",
+        "blocks": "0",
+        "turnovers": "3"
+    },
+    {
+        "playerName": "Jordan Bell",
+        "position": "PF",
+        "points": "11",
+        "rebounds": "13",
+        "assists": "2",
+        "steals": "0",
+        "blocks": "1",
+        "turnovers": "7"
+    },
+    {
+        "playerName": "DeAndre' Bembry",
+        "position": "SG",
+        "points": "51",
+        "rebounds": "24",
+        "assists": "18",
+        "steals": "7",
+        "blocks": "0",
+        "turnovers": "6"
+    },
+    {
+        "playerName": "Dāvis Bertāns",
+        "position": "PF",
+        "points": "72",
+        "rebounds": "15",
+        "assists": "7",
+        "steals": "2",
+        "blocks": "1",
+        "turnovers": "4"
+    },
+    {
+        "playerName": "Patrick Beverley",
+        "position": "PG",
+        "points": "39",
+        "rebounds": "33",
+        "assists": "19",
+        "steals": "10",
+        "blocks": "1",
+        "turnovers": "11"
+    },
+    {
+        "playerName": "Khem Birch",
+        "position": "C",
+        "points": "1",
+        "rebounds": "6",
+        "assists": "1",
+        "steals": "1",
+        "blocks": "0",
+        "turnovers": "0"
+    },
+    {
+        "playerName": "Goga Bitadze",
+        "position": "C",
+        "points": "12",
+        "rebounds": "11",
+        "assists": "1",
+        "steals": "0",
+        "blocks": "5",
+        "turnovers": "2"
+    },
+    {
+        "playerName": "Bismack Biyombo",
+        "position": "C",
+        "points": "18",
+        "rebounds": "8",
+        "assists": "6",
+        "steals": "0",
+        "blocks": "1",
+        "turnovers": "4"
+    },
+    {
+        "playerName": "Nemanja Bjelica",
+        "position": "PF",
+        "points": "55",
+        "rebounds": "30",
+        "assists": "10",
+        "steals": "6",
+        "blocks": "3",
+        "turnovers": "7"
+    },
+    {
+        "playerName": "Eric Bledsoe",
+        "position": "PG",
+        "points": "74",
+        "rebounds": "32",
+        "assists": "28",
+        "steals": "4",
+        "blocks": "0",
+        "turnovers": "9"
+    },
+    {
+        "playerName": "Bogdan Bogdanović",
+        "position": "SG",
+        "points": "60",
+        "rebounds": "14",
+        "assists": "19",
+        "steals": "5",
+        "blocks": "0",
+        "turnovers": "6"
+    },
+    {
+        "playerName": "Bojan Bogdanović",
+        "position": "SF",
+        "points": "102",
+        "rebounds": "22",
+        "assists": "7",
+        "steals": "5",
+        "blocks": "2",
+        "turnovers": "13"
+    },
+    {
+        "playerName": "Jonah Bolden",
+        "position": "PF",
+        "points": "2",
+        "rebounds": "0",
+        "assists": "0",
+        "steals": "1",
+        "blocks": "0",
+        "turnovers": "0"
+    },
+    {
+        "playerName": "Isaac Bonga",
+        "position": "SF",
+        "points": "28",
+        "rebounds": "21",
+        "assists": "11",
+        "steals": "6",
+        "blocks": "1",
+        "turnovers": "4"
+    },
+    {
+        "playerName": "Devin Booker",
+        "position": "SG",
+        "points": "143",
+        "rebounds": "21",
+        "assists": "32",
+        "steals": "3",
+        "blocks": "2",
+        "turnovers": "21"
+    },
+    {
+        "playerName": "Chris Boucher",
+        "position": "PF",
+        "points": "4",
+        "rebounds": "5",
+        "assists": "0",
+        "steals": "0",
+        "blocks": "4",
+        "turnovers": "1"
+    },
+    {
+        "playerName": "Ky Bowman",
+        "position": "PG",
+        "points": "33",
+        "rebounds": "9",
+        "assists": "8",
+        "steals": "5",
+        "blocks": "0",
+        "turnovers": "5"
+    },
+    {
+        "playerName": "Avery Bradley",
+        "position": "SG",
+        "points": "48",
+        "rebounds": "17",
+        "assists": "3",
+        "steals": "7",
+        "blocks": "1",
+        "turnovers": "6"
+    },
+    {
+        "playerName": "Tony Bradley",
+        "position": "C",
+        "points": "8",
+        "rebounds": "4",
+        "assists": "0",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "1"
+    },
+    {
+        "playerName": "Jarrell Brantley",
+        "position": "PF",
+        "points": "0",
+        "rebounds": "3",
+        "assists": "1",
+        "steals": "0",
+        "blocks": "1",
+        "turnovers": "0"
+    },
+    {
+        "playerName": "Mikal Bridges",
+        "position": "SF",
+        "points": "27",
+        "rebounds": "19",
+        "assists": "6",
+        "steals": "10",
+        "blocks": "0",
+        "turnovers": "4"
+    },
+    {
+        "playerName": "Miles Bridges",
+        "position": "SF",
+        "points": "75",
+        "rebounds": "30",
+        "assists": "13",
+        "steals": "2",
+        "blocks": "4",
+        "turnovers": "15"
+    },
+    {
+        "playerName": "Malcolm Brogdon",
+        "position": "PG",
+        "points": "113",
+        "rebounds": "29",
+        "assists": "51",
+        "steals": "7",
+        "blocks": "3",
+        "turnovers": "12"
+    },
+    {
+        "playerName": "Dillon Brooks",
+        "position": "SF",
+        "points": "58",
+        "rebounds": "15",
+        "assists": "9",
+        "steals": "6",
+        "blocks": "2",
+        "turnovers": "6"
+    },
+    {
+        "playerName": "Bruce Brown",
+        "position": "SG",
+        "points": "48",
+        "rebounds": "27",
+        "assists": "11",
+        "steals": "5",
+        "blocks": "1",
+        "turnovers": "16"
+    },
+    {
+        "playerName": "Jaylen Brown",
+        "position": "SG",
+        "points": "52",
+        "rebounds": "20",
+        "assists": "6",
+        "steals": "2",
+        "blocks": "3",
+        "turnovers": "4"
+    },
+    {
+        "playerName": "Sterling Brown",
+        "position": "SG",
+        "points": "20",
+        "rebounds": "16",
+        "assists": "2",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "3"
+    },
+    {
+        "playerName": "Troy Brown",
+        "position": "SG",
+        "points": "18",
+        "rebounds": "8",
+        "assists": "2",
+        "steals": "3",
+        "blocks": "1",
+        "turnovers": "1"
+    },
+    {
+        "playerName": "Jalen Brunson",
+        "position": "PG",
+        "points": "41",
+        "rebounds": "19",
+        "assists": "17",
+        "steals": "2",
+        "blocks": "0",
+        "turnovers": "5"
+    },
+    {
+        "playerName": "Thomas Bryant",
+        "position": "C",
+        "points": "61",
+        "rebounds": "51",
+        "assists": "13",
+        "steals": "5",
+        "blocks": "10",
+        "turnovers": "9"
+    },
+    {
+        "playerName": "Alec Burks",
+        "position": "SG",
+        "points": "21",
+        "rebounds": "6",
+        "assists": "5",
+        "steals": "0",
+        "blocks": "1",
+        "turnovers": "2"
+    },
+    {
+        "playerName": "Deonte Burton",
+        "position": "SG",
+        "points": "6",
+        "rebounds": "4",
+        "assists": "0",
+        "steals": "1",
+        "blocks": "0",
+        "turnovers": "2"
+    },
+    {
+        "playerName": "Jimmy Butler",
+        "position": "SF",
+        "points": "26",
+        "rebounds": "14",
+        "assists": "13",
+        "steals": "9",
+        "blocks": "3",
+        "turnovers": "8"
+    },
+    {
+        "playerName": "Bruno Caboclo",
+        "position": "SF",
+        "points": "2",
+        "rebounds": "5",
+        "assists": "0",
+        "steals": "1",
+        "blocks": "2",
+        "turnovers": "1"
+    },
+    {
+        "playerName": "Kentavious Caldwell-Pope",
+        "position": "SG",
+        "points": "26",
+        "rebounds": "12",
+        "assists": "10",
+        "steals": "3",
+        "blocks": "1",
+        "turnovers": "4"
+    },
+    {
+        "playerName": "Vlatko Čančar",
+        "position": "SF",
+        "points": "0",
+        "rebounds": "0",
+        "assists": "0",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "0"
+    },
+    {
+        "playerName": "Clint Capela",
+        "position": "C",
+        "points": "74",
+        "rebounds": "41",
+        "assists": "6",
+        "steals": "5",
+        "blocks": "10",
+        "turnovers": "9"
+    },
+    {
+        "playerName": "DeMarre Carroll",
+        "position": "SF",
+        "points": "2",
+        "rebounds": "2",
+        "assists": "2",
+        "steals": "0",
+        "blocks": "1",
+        "turnovers": "1"
+    },
+    {
+        "playerName": "Jevon Carter",
+        "position": "PG",
+        "points": "40",
+        "rebounds": "13",
+        "assists": "17",
+        "steals": "6",
+        "blocks": "1",
+        "turnovers": "13"
+    },
+    {
+        "playerName": "Vince Carter",
+        "position": "SF",
+        "points": "15",
+        "rebounds": "7",
+        "assists": "3",
+        "steals": "2",
+        "blocks": "0",
+        "turnovers": "2"
+    },
+    {
+        "playerName": "Wendell Carter",
+        "position": "C",
+        "points": "82",
+        "rebounds": "56",
+        "assists": "4",
+        "steals": "3",
+        "blocks": "7",
+        "turnovers": "7"
+    },
+    {
+        "playerName": "Michael Carter-Williams",
+        "position": "PG",
+        "points": "10",
+        "rebounds": "13",
+        "assists": "4",
+        "steals": "5",
+        "blocks": "1",
+        "turnovers": "3"
+    },
+    {
+        "playerName": "Alex Caruso",
+        "position": "SG",
+        "points": "14",
+        "rebounds": "7",
+        "assists": "5",
+        "steals": "5",
+        "blocks": "2",
+        "turnovers": "6"
+    },
+    {
+        "playerName": "Willie Cauley-Stein",
+        "position": "C",
+        "points": "26",
+        "rebounds": "18",
+        "assists": "3",
+        "steals": "2",
+        "blocks": "2",
+        "turnovers": "0"
+    },
+    {
+        "playerName": "Tyson Chandler",
+        "position": "C",
+        "points": "14",
+        "rebounds": "16",
+        "assists": "0",
+        "steals": "3",
+        "blocks": "1",
+        "turnovers": "1"
+    },
+    {
+        "playerName": "Chris Chiozza",
+        "position": "PG",
+        "points": "6",
+        "rebounds": "4",
+        "assists": "7",
+        "steals": "2",
+        "blocks": "2",
+        "turnovers": "3"
+    },
+    {
+        "playerName": "Marquese Chriss",
+        "position": "PF",
+        "points": "26",
+        "rebounds": "20",
+        "assists": "8",
+        "steals": "5",
+        "blocks": "2",
+        "turnovers": "10"
+    },
+    {
+        "playerName": "Brandon Clarke",
+        "position": "PF",
+        "points": "58",
+        "rebounds": "31",
+        "assists": "4",
+        "steals": "6",
+        "blocks": "8",
+        "turnovers": "4"
+    },
+    {
+        "playerName": "Jordan Clarkson",
+        "position": "SG",
+        "points": "76",
+        "rebounds": "6",
+        "assists": "14",
+        "steals": "5",
+        "blocks": "1",
+        "turnovers": "6"
+    },
+    {
+        "playerName": "John Collins",
+        "position": "PF",
+        "points": "85",
+        "rebounds": "44",
+        "assists": "8",
+        "steals": "5",
+        "blocks": "10",
+        "turnovers": "7"
+    },
+    {
+        "playerName": "Zach Collins",
+        "position": "PF",
+        "points": "27",
+        "rebounds": "12",
+        "assists": "6",
+        "steals": "0",
+        "blocks": "2",
+        "turnovers": "6"
+    },
+    {
+        "playerName": "Mike Conley",
+        "position": "PG",
+        "points": "79",
+        "rebounds": "14",
+        "assists": "26",
+        "steals": "7",
+        "blocks": "1",
+        "turnovers": "17"
+    },
+    {
+        "playerName": "Pat Connaughton",
+        "position": "SG",
+        "points": "37",
+        "rebounds": "12",
+        "assists": "9",
+        "steals": "1",
+        "blocks": "3",
+        "turnovers": "0"
+    },
+    {
+        "playerName": "Quinn Cook",
+        "position": "PG",
+        "points": "27",
+        "rebounds": "8",
+        "assists": "14",
+        "steals": "1",
+        "blocks": "0",
+        "turnovers": "4"
+    },
+    {
+        "playerName": "Tyler Cook",
+        "position": "PF",
+        "points": "2",
+        "rebounds": "1",
+        "assists": "0",
+        "steals": "1",
+        "blocks": "0",
+        "turnovers": "0"
+    },
+    {
+        "playerName": "Robert Covington",
+        "position": "PF",
+        "points": "61",
+        "rebounds": "30",
+        "assists": "5",
+        "steals": "4",
+        "blocks": "4",
+        "turnovers": "7"
+    },
+    {
+        "playerName": "Torrey Craig",
+        "position": "SF",
+        "points": "18",
+        "rebounds": "26",
+        "assists": "5",
+        "steals": "3",
+        "blocks": "8",
+        "turnovers": "3"
+    },
+    {
+        "playerName": "Jae Crowder",
+        "position": "SF",
+        "points": "41",
+        "rebounds": "30",
+        "assists": "15",
+        "steals": "2",
+        "blocks": "2",
+        "turnovers": "6"
+    },
+    {
+        "playerName": "Jarrett Culver",
+        "position": "SG",
+        "points": "32",
+        "rebounds": "9",
+        "assists": "4",
+        "steals": "4",
+        "blocks": "0",
+        "turnovers": "10"
+    },
+    {
+        "playerName": "Seth Curry",
+        "position": "SG",
+        "points": "43",
+        "rebounds": "9",
+        "assists": "7",
+        "steals": "5",
+        "blocks": "1",
+        "turnovers": "5"
+    },
+    {
+        "playerName": "Stephen Curry",
+        "position": "PG",
+        "points": "81",
+        "rebounds": "20",
+        "assists": "26",
+        "steals": "5",
+        "blocks": "2",
+        "turnovers": "15"
+    },
+    {
+        "playerName": "Troy Daniels",
+        "position": "SG",
+        "points": "31",
+        "rebounds": "6",
+        "assists": "3",
+        "steals": "2",
+        "blocks": "0",
+        "turnovers": "3"
+    },
+    {
+        "playerName": "Anthony Davis",
+        "position": "PF",
+        "points": "146",
+        "rebounds": "58",
+        "assists": "14",
+        "steals": "6",
+        "blocks": "14",
+        "turnovers": "12"
+    },
+    {
+        "playerName": "Ed Davis",
+        "position": "C",
+        "points": "10",
+        "rebounds": "31",
+        "assists": "1",
+        "steals": "1",
+        "blocks": "3",
+        "turnovers": "5"
+    },
+    {
+        "playerName": "Terence Davis",
+        "position": "SG",
+        "points": "14",
+        "rebounds": "12",
+        "assists": "4",
+        "steals": "3",
+        "blocks": "1",
+        "turnovers": "1"
+    },
+    {
+        "playerName": "Dewayne Dedmon",
+        "position": "C",
+        "points": "34",
+        "rebounds": "31",
+        "assists": "2",
+        "steals": "2",
+        "blocks": "5",
+        "turnovers": "15"
+    },
+    {
+        "playerName": "Matthew Dellavedova",
+        "position": "PG",
+        "points": "10",
+        "rebounds": "5",
+        "assists": "10",
+        "steals": "3",
+        "blocks": "0",
+        "turnovers": "4"
+    },
+    {
+        "playerName": "DeMar DeRozan",
+        "position": "SG",
+        "points": "108",
+        "rebounds": "23",
+        "assists": "20",
+        "steals": "5",
+        "blocks": "2",
+        "turnovers": "20"
+    },
+    {
+        "playerName": "Cheick Diallo",
+        "position": "C",
+        "points": "6",
+        "rebounds": "0",
+        "assists": "0",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "2"
+    },
+    {
+        "playerName": "Hamidou Diallo",
+        "position": "SG",
+        "points": "60",
+        "rebounds": "30",
+        "assists": "3",
+        "steals": "6",
+        "blocks": "2",
+        "turnovers": "10"
+    },
+    {
+        "playerName": "Gorgui Dieng",
+        "position": "C",
+        "points": "20",
+        "rebounds": "10",
+        "assists": "1",
+        "steals": "2",
+        "blocks": "3",
+        "turnovers": "3"
+    },
+    {
+        "playerName": "Spencer Dinwiddie",
+        "position": "SG",
+        "points": "91",
+        "rebounds": "14",
+        "assists": "30",
+        "steals": "3",
+        "blocks": "3",
+        "turnovers": "18"
+    },
+    {
+        "playerName": "Donte DiVincenzo",
+        "position": "SG",
+        "points": "22",
+        "rebounds": "7",
+        "assists": "4",
+        "steals": "3",
+        "blocks": "1",
+        "turnovers": "1"
+    },
+    {
+        "playerName": "Luka Dončić",
+        "position": "PG",
+        "points": "131",
+        "rebounds": "48",
+        "assists": "42",
+        "steals": "9",
+        "blocks": "1",
+        "turnovers": "23"
+    },
+    {
+        "playerName": "Damyean Dotson",
+        "position": "SG",
+        "points": "5",
+        "rebounds": "2",
+        "assists": "2",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "1"
+    },
+    {
+        "playerName": "Goran Dragić",
+        "position": "PG",
+        "points": "82",
+        "rebounds": "18",
+        "assists": "21",
+        "steals": "2",
+        "blocks": "2",
+        "turnovers": "14"
+    },
+    {
+        "playerName": "Andre Drummond",
+        "position": "C",
+        "points": "155",
+        "rebounds": "131",
+        "assists": "17",
+        "steals": "12",
+        "blocks": "18",
+        "turnovers": "28"
+    },
+    {
+        "playerName": "Jared Dudley",
+        "position": "SF",
+        "points": "6",
+        "rebounds": "2",
+        "assists": "1",
+        "steals": "1",
+        "blocks": "0",
+        "turnovers": "0"
+    },
+    {
+        "playerName": "Kris Dunn",
+        "position": "PG",
+        "points": "31",
+        "rebounds": "15",
+        "assists": "15",
+        "steals": "11",
+        "blocks": "2",
+        "turnovers": "2"
+    },
+    {
+        "playerName": "Carsen Edwards",
+        "position": "PG",
+        "points": "16",
+        "rebounds": "6",
+        "assists": "4",
+        "steals": "2",
+        "blocks": "0",
+        "turnovers": "0"
+    },
+    {
+        "playerName": "Wayne Ellington",
+        "position": "SG",
+        "points": "31",
+        "rebounds": "12",
+        "assists": "6",
+        "steals": "1",
+        "blocks": "1",
+        "turnovers": "5"
+    },
+    {
+        "playerName": "Joel Embiid",
+        "position": "C",
+        "points": "70",
+        "rebounds": "31",
+        "assists": "10",
+        "steals": "4",
+        "blocks": "5",
+        "turnovers": "8"
+    },
+    {
+        "playerName": "James Ennis",
+        "position": "SF",
+        "points": "30",
+        "rebounds": "30",
+        "assists": "4",
+        "steals": "3",
+        "blocks": "1",
+        "turnovers": "5"
+    },
+    {
+        "playerName": "Drew Eubanks",
+        "position": "PF",
+        "points": "0",
+        "rebounds": "3",
+        "assists": "0",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "1"
+    },
+    {
+        "playerName": "Jacob Evans",
+        "position": "SG",
+        "points": "18",
+        "rebounds": "5",
+        "assists": "2",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "1"
+    },
+    {
+        "playerName": "Tacko Fall",
+        "position": "C",
+        "points": "4",
+        "rebounds": "3",
+        "assists": "0",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "1"
+    },
+    {
+        "playerName": "Derrick Favors",
+        "position": "C",
+        "points": "26",
+        "rebounds": "19",
+        "assists": "6",
+        "steals": "1",
+        "blocks": "1",
+        "turnovers": "7"
+    },
+    {
+        "playerName": "Terrance Ferguson",
+        "position": "SG",
+        "points": "17",
+        "rebounds": "13",
+        "assists": "6",
+        "steals": "3",
+        "blocks": "2",
+        "turnovers": "5"
+    },
+    {
+        "playerName": "Bruno Fernando",
+        "position": "C",
+        "points": "26",
+        "rebounds": "15",
+        "assists": "6",
+        "steals": "1",
+        "blocks": "3",
+        "turnovers": "3"
+    },
+    {
+        "playerName": "Yogi Ferrell",
+        "position": "PG",
+        "points": "12",
+        "rebounds": "2",
+        "assists": "3",
+        "steals": "1",
+        "blocks": "0",
+        "turnovers": "1"
+    },
+    {
+        "playerName": "Dorian Finney-Smith",
+        "position": "PF",
+        "points": "42",
+        "rebounds": "34",
+        "assists": "4",
+        "steals": "5",
+        "blocks": "1",
+        "turnovers": "7"
+    },
+    {
+        "playerName": "Bryn Forbes",
+        "position": "SG",
+        "points": "73",
+        "rebounds": "18",
+        "assists": "5",
+        "steals": "1",
+        "blocks": "0",
+        "turnovers": "4"
+    },
+    {
+        "playerName": "Evan Fournier",
+        "position": "SG",
+        "points": "101",
+        "rebounds": "19",
+        "assists": "17",
+        "steals": "4",
+        "blocks": "1",
+        "turnovers": "14"
+    },
+    {
+        "playerName": "De'Aaron Fox",
+        "position": "PG",
+        "points": "106",
+        "rebounds": "23",
+        "assists": "38",
+        "steals": "4",
+        "blocks": "2",
+        "turnovers": "22"
+    },
+    {
+        "playerName": "Melvin Frazier",
+        "position": "SG",
+        "points": "2",
+        "rebounds": "1",
+        "assists": "0",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "0"
+    },
+    {
+        "playerName": "Tim Frazier",
+        "position": "PG",
+        "points": "25",
+        "rebounds": "7",
+        "assists": "20",
+        "steals": "5",
+        "blocks": "0",
+        "turnovers": "6"
+    },
+    {
+        "playerName": "Markelle Fultz",
+        "position": "SG",
+        "points": "58",
+        "rebounds": "11",
+        "assists": "20",
+        "steals": "6",
+        "blocks": "0",
+        "turnovers": "10"
+    },
+    {
+        "playerName": "Wenyen Gabriel",
+        "position": "PF",
+        "points": "11",
+        "rebounds": "5",
+        "assists": "3",
+        "steals": "1",
+        "blocks": "1",
+        "turnovers": "3"
+    },
+    {
+        "playerName": "Daniel Gafford",
+        "position": "PF",
+        "points": "0",
+        "rebounds": "1",
+        "assists": "0",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "0"
+    },
+    {
+        "playerName": "Danilo Gallinari",
+        "position": "PF",
+        "points": "108",
+        "rebounds": "29",
+        "assists": "8",
+        "steals": "3",
+        "blocks": "1",
+        "turnovers": "7"
+    },
+    {
+        "playerName": "Langston Galloway",
+        "position": "SG",
+        "points": "68",
+        "rebounds": "17",
+        "assists": "9",
+        "steals": "6",
+        "blocks": "2",
+        "turnovers": "5"
+    },
+    {
+        "playerName": "Darius Garland",
+        "position": "PG",
+        "points": "40",
+        "rebounds": "6",
+        "assists": "17",
+        "steals": "2",
+        "blocks": "0",
+        "turnovers": "13"
+    },
+    {
+        "playerName": "Marc Gasol",
+        "position": "C",
+        "points": "38",
+        "rebounds": "45",
+        "assists": "13",
+        "steals": "0",
+        "blocks": "2",
+        "turnovers": "8"
+    },
+    {
+        "playerName": "Rudy Gay",
+        "position": "PF",
+        "points": "54",
+        "rebounds": "37",
+        "assists": "13",
+        "steals": "2",
+        "blocks": "3",
+        "turnovers": "8"
+    },
+    {
+        "playerName": "Taj Gibson",
+        "position": "C",
+        "points": "10",
+        "rebounds": "10",
+        "assists": "3",
+        "steals": "1",
+        "blocks": "1",
+        "turnovers": "4"
+    },
+    {
+        "playerName": "Shai Gilgeous-Alexander",
+        "position": "SG",
+        "points": "131",
+        "rebounds": "43",
+        "assists": "20",
+        "steals": "4",
+        "blocks": "6",
+        "turnovers": "11"
+    },
+    {
+        "playerName": "Rudy Gobert",
+        "position": "C",
+        "points": "64",
+        "rebounds": "70",
+        "assists": "6",
+        "steals": "7",
+        "blocks": "7",
+        "turnovers": "20"
+    },
+    {
+        "playerName": "Aaron Gordon",
+        "position": "PF",
+        "points": "68",
+        "rebounds": "38",
+        "assists": "18",
+        "steals": "5",
+        "blocks": "4",
+        "turnovers": "6"
+    },
+    {
+        "playerName": "Eric Gordon",
+        "position": "SG",
+        "points": "52",
+        "rebounds": "6",
+        "assists": "5",
+        "steals": "3",
+        "blocks": "0",
+        "turnovers": "2"
+    },
+    {
+        "playerName": "Devonte' Graham",
+        "position": "PG",
+        "points": "86",
+        "rebounds": "23",
+        "assists": "41",
+        "steals": "1",
+        "blocks": "1",
+        "turnovers": "16"
+    },
+    {
+        "playerName": "Treveon Graham",
+        "position": "SG",
+        "points": "31",
+        "rebounds": "17",
+        "assists": "7",
+        "steals": "5",
+        "blocks": "0",
+        "turnovers": "2"
+    },
+    {
+        "playerName": "Jerami Grant",
+        "position": "PF",
+        "points": "48",
+        "rebounds": "19",
+        "assists": "5",
+        "steals": "2",
+        "blocks": "2",
+        "turnovers": "8"
+    },
+    {
+        "playerName": "Danny Green",
+        "position": "SG",
+        "points": "64",
+        "rebounds": "16",
+        "assists": "5",
+        "steals": "7",
+        "blocks": "2",
+        "turnovers": "3"
+    },
+    {
+        "playerName": "Draymond Green",
+        "position": "PF",
+        "points": "47",
+        "rebounds": "39",
+        "assists": "26",
+        "steals": "7",
+        "blocks": "0",
+        "turnovers": "7"
+    },
+    {
+        "playerName": "JaMychal Green",
+        "position": "PF",
+        "points": "60",
+        "rebounds": "28",
+        "assists": "1",
+        "steals": "2",
+        "blocks": "1",
+        "turnovers": "3"
+    },
+    {
+        "playerName": "Javonte Green",
+        "position": "SG",
+        "points": "0",
+        "rebounds": "1",
+        "assists": "1",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "0"
+    },
+    {
+        "playerName": "Jeff Green",
+        "position": "PF",
+        "points": "43",
+        "rebounds": "10",
+        "assists": "4",
+        "steals": "5",
+        "blocks": "2",
+        "turnovers": "7"
+    },
+    {
+        "playerName": "Marko Guduric",
+        "position": "SG",
+        "points": "20",
+        "rebounds": "16",
+        "assists": "8",
+        "steals": "0",
+        "blocks": "1",
+        "turnovers": "7"
+    },
+    {
+        "playerName": "Rui Hachimura",
+        "position": "SF",
+        "points": "76",
+        "rebounds": "30",
+        "assists": "5",
+        "steals": "2",
+        "blocks": "1",
+        "turnovers": "5"
+    },
+    {
+        "playerName": "Tim Hardaway",
+        "position": "SG",
+        "points": "48",
+        "rebounds": "11",
+        "assists": "7",
+        "steals": "1",
+        "blocks": "0",
+        "turnovers": "3"
+    },
+    {
+        "playerName": "James Harden",
+        "position": "SG",
+        "points": "183",
+        "rebounds": "22",
+        "assists": "43",
+        "steals": "4",
+        "blocks": "2",
+        "turnovers": "28"
+    },
+    {
+        "playerName": "Maurice Harkless",
+        "position": "PF",
+        "points": "37",
+        "rebounds": "17",
+        "assists": "5",
+        "steals": "10",
+        "blocks": "3",
+        "turnovers": "5"
+    },
+    {
+        "playerName": "Jared Harper",
+        "position": "PG",
+        "points": "0",
+        "rebounds": "0",
+        "assists": "0",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "0"
+    },
+    {
+        "playerName": "Montrezl Harrell",
+        "position": "C",
+        "points": "116",
+        "rebounds": "33",
+        "assists": "12",
+        "steals": "4",
+        "blocks": "4",
+        "turnovers": "16"
+    },
+    {
+        "playerName": "Gary Harris",
+        "position": "SG",
+        "points": "76",
+        "rebounds": "21",
+        "assists": "10",
+        "steals": "8",
+        "blocks": "1",
+        "turnovers": "10"
+    },
+    {
+        "playerName": "Joe Harris",
+        "position": "SG",
+        "points": "86",
+        "rebounds": "23",
+        "assists": "9",
+        "steals": "5",
+        "blocks": "1",
+        "turnovers": "11"
+    },
+    {
+        "playerName": "Tobias Harris",
+        "position": "SF",
+        "points": "98",
+        "rebounds": "43",
+        "assists": "15",
+        "steals": "7",
+        "blocks": "2",
+        "turnovers": "12"
+    },
+    {
+        "playerName": "Shaquille Harrison",
+        "position": "PG",
+        "points": "8",
+        "rebounds": "3",
+        "assists": "1",
+        "steals": "0",
+        "blocks": "1",
+        "turnovers": "0"
+    },
+    {
+        "playerName": "Josh Hart",
+        "position": "SF",
+        "points": "81",
+        "rebounds": "46",
+        "assists": "7",
+        "steals": "6",
+        "blocks": "4",
+        "turnovers": "8"
+    },
+    {
+        "playerName": "Jaxson Hayes",
+        "position": "C",
+        "points": "28",
+        "rebounds": "10",
+        "assists": "4",
+        "steals": "2",
+        "blocks": "1",
+        "turnovers": "1"
+    },
+    {
+        "playerName": "Gordon Hayward",
+        "position": "SF",
+        "points": "83",
+        "rebounds": "38",
+        "assists": "18",
+        "steals": "4",
+        "blocks": "1",
+        "turnovers": "12"
+    },
+    {
+        "playerName": "John Henson",
+        "position": "PF",
+        "points": "3",
+        "rebounds": "3",
+        "assists": "0",
+        "steals": "2",
+        "blocks": "2",
+        "turnovers": "1"
+    },
+    {
+        "playerName": "Juan Hernangómez",
+        "position": "PF",
+        "points": "3",
+        "rebounds": "0",
+        "assists": "0",
+        "steals": "0",
+        "blocks": "1",
+        "turnovers": "0"
+    },
+    {
+        "playerName": "Willy Hernangómez",
+        "position": "C",
+        "points": "6",
+        "rebounds": "6",
+        "assists": "1",
+        "steals": "1",
+        "blocks": "1",
+        "turnovers": "1"
+    },
+    {
+        "playerName": "Tyler Herro",
+        "position": "SG",
+        "points": "82",
+        "rebounds": "29",
+        "assists": "10",
+        "steals": "4",
+        "blocks": "0",
+        "turnovers": "12"
+    },
+    {
+        "playerName": "Mario Hezonja",
+        "position": "SF",
+        "points": "32",
+        "rebounds": "40",
+        "assists": "7",
+        "steals": "5",
+        "blocks": "2",
+        "turnovers": "6"
+    },
+    {
+        "playerName": "Buddy Hield",
+        "position": "SG",
+        "points": "98",
+        "rebounds": "22",
+        "assists": "12",
+        "steals": "4",
+        "blocks": "2",
+        "turnovers": "20"
+    },
+    {
+        "playerName": "George Hill",
+        "position": "PG",
+        "points": "60",
+        "rebounds": "19",
+        "assists": "22",
+        "steals": "6",
+        "blocks": "1",
+        "turnovers": "2"
+    },
+    {
+        "playerName": "Solomon Hill",
+        "position": "SF",
+        "points": "27",
+        "rebounds": "14",
+        "assists": "5",
+        "steals": "3",
+        "blocks": "1",
+        "turnovers": "6"
+    },
+    {
+        "playerName": "Aaron Holiday",
+        "position": "PG",
+        "points": "3",
+        "rebounds": "2",
+        "assists": "5",
+        "steals": "3",
+        "blocks": "0",
+        "turnovers": "2"
+    },
+    {
+        "playerName": "Jrue Holiday",
+        "position": "SG",
+        "points": "56",
+        "rebounds": "16",
+        "assists": "27",
+        "steals": "5",
+        "blocks": "2",
+        "turnovers": "9"
+    },
+    {
+        "playerName": "Justin Holiday",
+        "position": "SG",
+        "points": "29",
+        "rebounds": "22",
+        "assists": "7",
+        "steals": "6",
+        "blocks": "3",
+        "turnovers": "2"
+    },
+    {
+        "playerName": "Rondae Hollis-Jefferson",
+        "position": "SF",
+        "points": "1",
+        "rebounds": "0",
+        "assists": "0",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "0"
+    },
+    {
+        "playerName": "Richaun Holmes",
+        "position": "C",
+        "points": "66",
+        "rebounds": "36",
+        "assists": "4",
+        "steals": "5",
+        "blocks": "8",
+        "turnovers": "9"
+    },
+    {
+        "playerName": "Rodney Hood",
+        "position": "SF",
+        "points": "86",
+        "rebounds": "23",
+        "assists": "3",
+        "steals": "7",
+        "blocks": "4",
+        "turnovers": "7"
+    },
+    {
+        "playerName": "Al Horford",
+        "position": "PF",
+        "points": "81",
+        "rebounds": "41",
+        "assists": "21",
+        "steals": "4",
+        "blocks": "6",
+        "turnovers": "4"
+    },
+    {
+        "playerName": "Danuel House",
+        "position": "SF",
+        "points": "63",
+        "rebounds": "27",
+        "assists": "4",
+        "steals": "4",
+        "blocks": "5",
+        "turnovers": "3"
+    },
+    {
+        "playerName": "Dwight Howard",
+        "position": "C",
+        "points": "27",
+        "rebounds": "36",
+        "assists": "6",
+        "steals": "5",
+        "blocks": "12",
+        "turnovers": "5"
+    },
+    {
+        "playerName": "Kevin Huerter",
+        "position": "SG",
+        "points": "31",
+        "rebounds": "15",
+        "assists": "16",
+        "steals": "3",
+        "blocks": "1",
+        "turnovers": "8"
+    },
+    {
+        "playerName": "De'Andre Hunter",
+        "position": "SF",
+        "points": "42",
+        "rebounds": "20",
+        "assists": "5",
+        "steals": "4",
+        "blocks": "2",
+        "turnovers": "11"
+    },
+    {
+        "playerName": "Serge Ibaka",
+        "position": "C",
+        "points": "83",
+        "rebounds": "40",
+        "assists": "4",
+        "steals": "3",
+        "blocks": "10",
+        "turnovers": "15"
+    },
+    {
+        "playerName": "Ersan İlyasova",
+        "position": "PF",
+        "points": "49",
+        "rebounds": "40",
+        "assists": "4",
+        "steals": "4",
+        "blocks": "3",
+        "turnovers": "4"
+    },
+    {
+        "playerName": "Joe Ingles",
+        "position": "SF",
+        "points": "36",
+        "rebounds": "24",
+        "assists": "23",
+        "steals": "6",
+        "blocks": "0",
+        "turnovers": "9"
+    },
+    {
+        "playerName": "Brandon Ingram",
+        "position": "PF",
+        "points": "141",
+        "rebounds": "45",
+        "assists": "25",
+        "steals": "3",
+        "blocks": "7",
+        "turnovers": "14"
+    },
+    {
+        "playerName": "Kyrie Irving",
+        "position": "PG",
+        "points": "183",
+        "rebounds": "39",
+        "assists": "45",
+        "steals": "6",
+        "blocks": "4",
+        "turnovers": "15"
+    },
+    {
+        "playerName": "Jonathan Isaac",
+        "position": "SF",
+        "points": "63",
+        "rebounds": "36",
+        "assists": "9",
+        "steals": "9",
+        "blocks": "15",
+        "turnovers": "8"
+    },
+    {
+        "playerName": "Wesley Iwundu",
+        "position": "SF",
+        "points": "2",
+        "rebounds": "1",
+        "assists": "0",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "2"
+    },
+    {
+        "playerName": "Frank Jackson",
+        "position": "PG",
+        "points": "70",
+        "rebounds": "7",
+        "assists": "9",
+        "steals": "4",
+        "blocks": "1",
+        "turnovers": "7"
+    },
+    {
+        "playerName": "Jaren Jackson",
+        "position": "C",
+        "points": "66",
+        "rebounds": "27",
+        "assists": "4",
+        "steals": "3",
+        "blocks": "8",
+        "turnovers": "12"
+    },
+    {
+        "playerName": "Justin Jackson",
+        "position": "SF",
+        "points": "30",
+        "rebounds": "10",
+        "assists": "3",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "2"
+    },
+    {
+        "playerName": "Reggie Jackson",
+        "position": "PG",
+        "points": "10",
+        "rebounds": "5",
+        "assists": "8",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "1"
+    },
+    {
+        "playerName": "Justin James",
+        "position": "SG",
+        "points": "7",
+        "rebounds": "1",
+        "assists": "0",
+        "steals": "0",
+        "blocks": "1",
+        "turnovers": "0"
+    },
+    {
+        "playerName": "LeBron James",
+        "position": "SF",
+        "points": "132",
+        "rebounds": "37",
+        "assists": "54",
+        "steals": "7",
+        "blocks": "3",
+        "turnovers": "20"
+    },
+    {
+        "playerName": "Amile Jefferson",
+        "position": "PF",
+        "points": "4",
+        "rebounds": "1",
+        "assists": "2",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "1"
+    },
+    {
+        "playerName": "Cameron Johnson",
+        "position": "SF",
+        "points": "24",
+        "rebounds": "9",
+        "assists": "1",
+        "steals": "2",
+        "blocks": "0",
+        "turnovers": "3"
+    },
+    {
+        "playerName": "Stanley Johnson",
+        "position": "SF",
+        "points": "5",
+        "rebounds": "4",
+        "assists": "0",
+        "steals": "1",
+        "blocks": "0",
+        "turnovers": "4"
+    },
+    {
+        "playerName": "Tyler Johnson",
+        "position": "PG",
+        "points": "42",
+        "rebounds": "10",
+        "assists": "13",
+        "steals": "2",
+        "blocks": "1",
+        "turnovers": "5"
+    },
+    {
+        "playerName": "Nikola Jokić",
+        "position": "C",
+        "points": "95",
+        "rebounds": "63",
+        "assists": "36",
+        "steals": "7",
+        "blocks": "3",
+        "turnovers": "18"
+    },
+    {
+        "playerName": "Damian Jones",
+        "position": "C",
+        "points": "14",
+        "rebounds": "5",
+        "assists": "0",
+        "steals": "2",
+        "blocks": "2",
+        "turnovers": "0"
+    },
+    {
+        "playerName": "Derrick Jones",
+        "position": "SF",
+        "points": "18",
+        "rebounds": "3",
+        "assists": "0",
+        "steals": "1",
+        "blocks": "0",
+        "turnovers": "1"
+    },
+    {
+        "playerName": "Tyus Jones",
+        "position": "PG",
+        "points": "34",
+        "rebounds": "4",
+        "assists": "23",
+        "steals": "6",
+        "blocks": "0",
+        "turnovers": "6"
+    },
+    {
+        "playerName": "DeAndre Jordan",
+        "position": "C",
+        "points": "39",
+        "rebounds": "60",
+        "assists": "9",
+        "steals": "2",
+        "blocks": "7",
+        "turnovers": "8"
+    },
+    {
+        "playerName": "Cory Joseph",
+        "position": "PG",
+        "points": "33",
+        "rebounds": "8",
+        "assists": "11",
+        "steals": "2",
+        "blocks": "1",
+        "turnovers": "9"
+    },
+    {
+        "playerName": "Mfiondu Kabengele",
+        "position": "C",
+        "points": "3",
+        "rebounds": "1",
+        "assists": "0",
+        "steals": "0",
+        "blocks": "1",
+        "turnovers": "0"
+    },
+    {
+        "playerName": "Frank Kaminsky",
+        "position": "C",
+        "points": "74",
+        "rebounds": "38",
+        "assists": "15",
+        "steals": "1",
+        "blocks": "2",
+        "turnovers": "13"
+    },
+    {
+        "playerName": "Enes Kanter",
+        "position": "C",
+        "points": "12",
+        "rebounds": "6",
+        "assists": "2",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "0"
+    },
+    {
+        "playerName": "Luke Kennard",
+        "position": "SG",
+        "points": "115",
+        "rebounds": "18",
+        "assists": "26",
+        "steals": "2",
+        "blocks": "0",
+        "turnovers": "8"
+    },
+    {
+        "playerName": "Stanton Kidd",
+        "position": "SF",
+        "points": "0",
+        "rebounds": "2",
+        "assists": "1",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "2"
+    },
+    {
+        "playerName": "Michael Kidd-Gilchrist",
+        "position": "SF",
+        "points": "5",
+        "rebounds": "4",
+        "assists": "0",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "1"
+    },
+    {
+        "playerName": "Maxi Kleber",
+        "position": "PF",
+        "points": "44",
+        "rebounds": "39",
+        "assists": "6",
+        "steals": "1",
+        "blocks": "8",
+        "turnovers": "7"
+    },
+    {
+        "playerName": "Brandon Knight",
+        "position": "PG",
+        "points": "0",
+        "rebounds": "0",
+        "assists": "0",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "1"
+    },
+    {
+        "playerName": "Kevin Knox",
+        "position": "SF",
+        "points": "72",
+        "rebounds": "23",
+        "assists": "9",
+        "steals": "3",
+        "blocks": "1",
+        "turnovers": "5"
+    },
+    {
+        "playerName": "Furkan Korkmaz",
+        "position": "SG",
+        "points": "33",
+        "rebounds": "8",
+        "assists": "4",
+        "steals": "1",
+        "blocks": "3",
+        "turnovers": "3"
+    },
+    {
+        "playerName": "Luke Kornet",
+        "position": "C",
+        "points": "23",
+        "rebounds": "12",
+        "assists": "5",
+        "steals": "1",
+        "blocks": "4",
+        "turnovers": "2"
+    },
+    {
+        "playerName": "Kyle Korver",
+        "position": "SG",
+        "points": "43",
+        "rebounds": "9",
+        "assists": "1",
+        "steals": "2",
+        "blocks": "1",
+        "turnovers": "5"
+    },
+    {
+        "playerName": "Rodions Kurucs",
+        "position": "SF",
+        "points": "16",
+        "rebounds": "17",
+        "assists": "1",
+        "steals": "2",
+        "blocks": "0",
+        "turnovers": "7"
+    },
+    {
+        "playerName": "Kyle Kuzma",
+        "position": "PF",
+        "points": "9",
+        "rebounds": "3",
+        "assists": "1",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "1"
+    },
+    {
+        "playerName": "Skal Labissière",
+        "position": "PF",
+        "points": "44",
+        "rebounds": "23",
+        "assists": "4",
+        "steals": "1",
+        "blocks": "5",
+        "turnovers": "8"
+    },
+    {
+        "playerName": "Jeremy Lamb",
+        "position": "SG",
+        "points": "56",
+        "rebounds": "21",
+        "assists": "4",
+        "steals": "4",
+        "blocks": "1",
+        "turnovers": "5"
+    },
+    {
+        "playerName": "Romeo Langford",
+        "position": "SG",
+        "points": "0",
+        "rebounds": "0",
+        "assists": "0",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "0"
+    },
+    {
+        "playerName": "Zach LaVine",
+        "position": "SG",
+        "points": "127",
+        "rebounds": "23",
+        "assists": "23",
+        "steals": "7",
+        "blocks": "3",
+        "turnovers": "20"
+    },
+    {
+        "playerName": "Jake Layman",
+        "position": "PF",
+        "points": "48",
+        "rebounds": "12",
+        "assists": "3",
+        "steals": "2",
+        "blocks": "4",
+        "turnovers": "5"
+    },
+    {
+        "playerName": "T.J. Leaf",
+        "position": "PF",
+        "points": "11",
+        "rebounds": "10",
+        "assists": "2",
+        "steals": "1",
+        "blocks": "0",
+        "turnovers": "2"
+    },
+    {
+        "playerName": "Courtney Lee",
+        "position": "SG",
+        "points": "6",
+        "rebounds": "1",
+        "assists": "0",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "0"
+    },
+    {
+        "playerName": "Damion Lee",
+        "position": "SG",
+        "points": "64",
+        "rebounds": "24",
+        "assists": "9",
+        "steals": "2",
+        "blocks": "0",
+        "turnovers": "9"
+    },
+    {
+        "playerName": "Alex Len",
+        "position": "C",
+        "points": "21",
+        "rebounds": "21",
+        "assists": "8",
+        "steals": "3",
+        "blocks": "6",
+        "turnovers": "7"
+    },
+    {
+        "playerName": "Kawhi Leonard",
+        "position": "SF",
+        "points": "146",
+        "rebounds": "38",
+        "assists": "31",
+        "steals": "11",
+        "blocks": "5",
+        "turnovers": "16"
+    },
+    {
+        "playerName": "Meyers Leonard",
+        "position": "C",
+        "points": "32",
+        "rebounds": "30",
+        "assists": "5",
+        "steals": "2",
+        "blocks": "5",
+        "turnovers": "3"
+    },
+    {
+        "playerName": "Caris LeVert",
+        "position": "SG",
+        "points": "113",
+        "rebounds": "27",
+        "assists": "21",
+        "steals": "6",
+        "blocks": "0",
+        "turnovers": "23"
+    },
+    {
+        "playerName": "Damian Lillard",
+        "position": "PG",
+        "points": "179",
+        "rebounds": "33",
+        "assists": "47",
+        "steals": "9",
+        "blocks": "3",
+        "turnovers": "17"
+    },
+    {
+        "playerName": "Nassir Little",
+        "position": "SF",
+        "points": "0",
+        "rebounds": "0",
+        "assists": "0",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "0"
+    },
+    {
+        "playerName": "Kevon Looney",
+        "position": "C",
+        "points": "3",
+        "rebounds": "9",
+        "assists": "1",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "1"
+    },
+    {
+        "playerName": "Brook Lopez",
+        "position": "C",
+        "points": "63",
+        "rebounds": "20",
+        "assists": "10",
+        "steals": "3",
+        "blocks": "11",
+        "turnovers": "8"
+    },
+    {
+        "playerName": "Robin Lopez",
+        "position": "C",
+        "points": "25",
+        "rebounds": "13",
+        "assists": "4",
+        "steals": "2",
+        "blocks": "3",
+        "turnovers": "5"
+    },
+    {
+        "playerName": "Kevin Love",
+        "position": "PF",
+        "points": "86",
+        "rebounds": "84",
+        "assists": "24",
+        "steals": "5",
+        "blocks": "0",
+        "turnovers": "19"
+    },
+    {
+        "playerName": "Kyle Lowry",
+        "position": "PG",
+        "points": "144",
+        "rebounds": "30",
+        "assists": "41",
+        "steals": "6",
+        "blocks": "3",
+        "turnovers": "20"
+    },
+    {
+        "playerName": "Trey Lyles",
+        "position": "PF",
+        "points": "14",
+        "rebounds": "44",
+        "assists": "10",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "3"
+    },
+    {
+        "playerName": "Daryl Macon",
+        "position": "SG",
+        "points": "0",
+        "rebounds": "0",
+        "assists": "0",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "0"
+    },
+    {
+        "playerName": "Josh Magette",
+        "position": "PG",
+        "points": "4",
+        "rebounds": "1",
+        "assists": "1",
+        "steals": "1",
+        "blocks": "0",
+        "turnovers": "0"
+    },
+    {
+        "playerName": "Thon Maker",
+        "position": "C",
+        "points": "19",
+        "rebounds": "18",
+        "assists": "3",
+        "steals": "3",
+        "blocks": "5",
+        "turnovers": "4"
+    },
+    {
+        "playerName": "Terance Mann",
+        "position": "SG",
+        "points": "4",
+        "rebounds": "5",
+        "assists": "5",
+        "steals": "1",
+        "blocks": "0",
+        "turnovers": "2"
+    },
+    {
+        "playerName": "Boban Marjanović",
+        "position": "C",
+        "points": "4",
+        "rebounds": "7",
+        "assists": "1",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "1"
+    },
+    {
+        "playerName": "Lauri Markkanen",
+        "position": "PF",
+        "points": "101",
+        "rebounds": "54",
+        "assists": "15",
+        "steals": "7",
+        "blocks": "2",
+        "turnovers": "11"
+    },
+    {
+        "playerName": "Caleb Martin",
+        "position": "SF",
+        "points": "4",
+        "rebounds": "3",
+        "assists": "3",
+        "steals": "1",
+        "blocks": "2",
+        "turnovers": "2"
+    },
+    {
+        "playerName": "Cody Martin",
+        "position": "SF",
+        "points": "8",
+        "rebounds": "6",
+        "assists": "1",
+        "steals": "3",
+        "blocks": "1",
+        "turnovers": "0"
+    },
+    {
+        "playerName": "Kelan Martin",
+        "position": "SF",
+        "points": "0",
+        "rebounds": "1",
+        "assists": "0",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "0"
+    },
+    {
+        "playerName": "Garrison Mathews",
+        "position": "SG",
+        "points": "0",
+        "rebounds": "1",
+        "assists": "2",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "1"
+    },
+    {
+        "playerName": "Wesley Matthews",
+        "position": "SG",
+        "points": "47",
+        "rebounds": "13",
+        "assists": "7",
+        "steals": "6",
+        "blocks": "1",
+        "turnovers": "3"
+    },
+    {
+        "playerName": "Patrick McCaw",
+        "position": "SF",
+        "points": "8",
+        "rebounds": "6",
+        "assists": "3",
+        "steals": "3",
+        "blocks": "0",
+        "turnovers": "3"
+    },
+    {
+        "playerName": "CJ McCollum",
+        "position": "SG",
+        "points": "131",
+        "rebounds": "21",
+        "assists": "19",
+        "steals": "5",
+        "blocks": "1",
+        "turnovers": "19"
+    },
+    {
+        "playerName": "T.J. McConnell",
+        "position": "PG",
+        "points": "19",
+        "rebounds": "10",
+        "assists": "20",
+        "steals": "3",
+        "blocks": "1",
+        "turnovers": "5"
+    },
+    {
+        "playerName": "Jalen McDaniels",
+        "position": "PF",
+        "points": "2",
+        "rebounds": "1",
+        "assists": "0",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "0"
+    },
+    {
+        "playerName": "Doug McDermott",
+        "position": "PF",
+        "points": "23",
+        "rebounds": "8",
+        "assists": "5",
+        "steals": "1",
+        "blocks": "1",
+        "turnovers": "4"
+    },
+    {
+        "playerName": "JaVale McGee",
+        "position": "C",
+        "points": "26",
+        "rebounds": "21",
+        "assists": "2",
+        "steals": "1",
+        "blocks": "4",
+        "turnovers": "6"
+    },
+    {
+        "playerName": "Rodney McGruder",
+        "position": "SG",
+        "points": "0",
+        "rebounds": "1",
+        "assists": "0",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "0"
+    },
+    {
+        "playerName": "Alfonzo McKinnie",
+        "position": "SF",
+        "points": "0",
+        "rebounds": "0",
+        "assists": "0",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "0"
+    },
+    {
+        "playerName": "Ben McLemore",
+        "position": "SG",
+        "points": "18",
+        "rebounds": "1",
+        "assists": "2",
+        "steals": "2",
+        "blocks": "0",
+        "turnovers": "2"
+    },
+    {
+        "playerName": "Jordan McRae",
+        "position": "SG",
+        "points": "11",
+        "rebounds": "5",
+        "assists": "3",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "1"
+    },
+    {
+        "playerName": "Nicolò Melli",
+        "position": "C",
+        "points": "41",
+        "rebounds": "17",
+        "assists": "7",
+        "steals": "1",
+        "blocks": "1",
+        "turnovers": "6"
+    },
+    {
+        "playerName": "De'Anthony Melton",
+        "position": "PG",
+        "points": "0",
+        "rebounds": "1",
+        "assists": "3",
+        "steals": "2",
+        "blocks": "0",
+        "turnovers": "2"
+    },
+    {
+        "playerName": "Chimezie Metu",
+        "position": "PF",
+        "points": "0",
+        "rebounds": "0",
+        "assists": "0",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "0"
+    },
+    {
+        "playerName": "Khris Middleton",
+        "position": "SF",
+        "points": "110",
+        "rebounds": "36",
+        "assists": "18",
+        "steals": "3",
+        "blocks": "1",
+        "turnovers": "14"
+    },
+    {
+        "playerName": "Malcolm Miller",
+        "position": "SG",
+        "points": "0",
+        "rebounds": "3",
+        "assists": "0",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "0"
+    },
+    {
+        "playerName": "Patty Mills",
+        "position": "PG",
+        "points": "63",
+        "rebounds": "8",
+        "assists": "10",
+        "steals": "5",
+        "blocks": "0",
+        "turnovers": "7"
+    },
+    {
+        "playerName": "Paul Millsap",
+        "position": "PF",
+        "points": "70",
+        "rebounds": "32",
+        "assists": "4",
+        "steals": "4",
+        "blocks": "4",
+        "turnovers": "5"
+    },
+    {
+        "playerName": "Shake Milton",
+        "position": "SG",
+        "points": "19",
+        "rebounds": "2",
+        "assists": "3",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "4"
+    },
+    {
+        "playerName": "Donovan Mitchell",
+        "position": "SG",
+        "points": "144",
+        "rebounds": "29",
+        "assists": "17",
+        "steals": "12",
+        "blocks": "1",
+        "turnovers": "8"
+    },
+    {
+        "playerName": "Malik Monk",
+        "position": "SG",
+        "points": "49",
+        "rebounds": "10",
+        "assists": "12",
+        "steals": "2",
+        "blocks": "1",
+        "turnovers": "11"
+    },
+    {
+        "playerName": "E'Twaun Moore",
+        "position": "SG",
+        "points": "5",
+        "rebounds": "3",
+        "assists": "2",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "0"
+    },
+    {
+        "playerName": "Ja Morant",
+        "position": "PG",
+        "points": "94",
+        "rebounds": "17",
+        "assists": "27",
+        "steals": "8",
+        "blocks": "2",
+        "turnovers": "24"
+    },
+    {
+        "playerName": "Marcus Morris",
+        "position": "PF",
+        "points": "97",
+        "rebounds": "32",
+        "assists": "5",
+        "steals": "8",
+        "blocks": "6",
+        "turnovers": "11"
+    },
+    {
+        "playerName": "Markieff Morris",
+        "position": "PF",
+        "points": "81",
+        "rebounds": "29",
+        "assists": "11",
+        "steals": "5",
+        "blocks": "1",
+        "turnovers": "18"
+    },
+    {
+        "playerName": "Monte Morris",
+        "position": "PG",
+        "points": "37",
+        "rebounds": "7",
+        "assists": "17",
+        "steals": "2",
+        "blocks": "0",
+        "turnovers": "3"
+    },
+    {
+        "playerName": "Johnathan Motley",
+        "position": "PF",
+        "points": "3",
+        "rebounds": "2",
+        "assists": "2",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "2"
+    },
+    {
+        "playerName": "Emmanuel Mudiay",
+        "position": "PG",
+        "points": "54",
+        "rebounds": "14",
+        "assists": "21",
+        "steals": "3",
+        "blocks": "3",
+        "turnovers": "14"
+    },
+    {
+        "playerName": "Dejounte Murray",
+        "position": "PG",
+        "points": "52",
+        "rebounds": "32",
+        "assists": "20",
+        "steals": "9",
+        "blocks": "3",
+        "turnovers": "11"
+    },
+    {
+        "playerName": "Jamal Murray",
+        "position": "PG",
+        "points": "111",
+        "rebounds": "29",
+        "assists": "21",
+        "steals": "5",
+        "blocks": "1",
+        "turnovers": "12"
+    },
+    {
+        "playerName": "Džanan Musa",
+        "position": "SG",
+        "points": "0",
+        "rebounds": "0",
+        "assists": "0",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "2"
+    },
+    {
+        "playerName": "Mike Muscala",
+        "position": "C",
+        "points": "13",
+        "rebounds": "15",
+        "assists": "5",
+        "steals": "1",
+        "blocks": "3",
+        "turnovers": "2"
+    },
+    {
+        "playerName": "Sviatoslav Mykhailiuk",
+        "position": "SG",
+        "points": "12",
+        "rebounds": "2",
+        "assists": "1",
+        "steals": "0",
+        "blocks": "1",
+        "turnovers": "1"
+    },
+    {
+        "playerName": "Abdel Nader",
+        "position": "SF",
+        "points": "12",
+        "rebounds": "7",
+        "assists": "1",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "5"
+    },
+    {
+        "playerName": "Larry Nance",
+        "position": "C",
+        "points": "53",
+        "rebounds": "36",
+        "assists": "7",
+        "steals": "2",
+        "blocks": "3",
+        "turnovers": "8"
+    },
+    {
+        "playerName": "Shabazz Napier",
+        "position": "PG",
+        "points": "37",
+        "rebounds": "12",
+        "assists": "23",
+        "steals": "5",
+        "blocks": "3",
+        "turnovers": "10"
+    },
+    {
+        "playerName": "Raul Neto",
+        "position": "PG",
+        "points": "8",
+        "rebounds": "4",
+        "assists": "4",
+        "steals": "1",
+        "blocks": "0",
+        "turnovers": "1"
+    },
+    {
+        "playerName": "Georges Niang",
+        "position": "PF",
+        "points": "24",
+        "rebounds": "7",
+        "assists": "2",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "4"
+    },
+    {
+        "playerName": "Nerlens Noel",
+        "position": "C",
+        "points": "46",
+        "rebounds": "27",
+        "assists": "7",
+        "steals": "5",
+        "blocks": "10",
+        "turnovers": "6"
+    },
+    {
+        "playerName": "Zach Norvell",
+        "position": "SG",
+        "points": "0",
+        "rebounds": "1",
+        "assists": "0",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "0"
+    },
+    {
+        "playerName": "Frank Ntilikina",
+        "position": "PG",
+        "points": "17",
+        "rebounds": "9",
+        "assists": "8",
+        "steals": "4",
+        "blocks": "1",
+        "turnovers": "6"
+    },
+    {
+        "playerName": "Kendrick Nunn",
+        "position": "SG",
+        "points": "112",
+        "rebounds": "12",
+        "assists": "13",
+        "steals": "9",
+        "blocks": "1",
+        "turnovers": "12"
+    },
+    {
+        "playerName": "David Nwaba",
+        "position": "SG",
+        "points": "8",
+        "rebounds": "11",
+        "assists": "1",
+        "steals": "1",
+        "blocks": "1",
+        "turnovers": "4"
+    },
+    {
+        "playerName": "Royce O'Neale",
+        "position": "PF",
+        "points": "42",
+        "rebounds": "23",
+        "assists": "12",
+        "steals": "4",
+        "blocks": "2",
+        "turnovers": "7"
+    },
+    {
+        "playerName": "Kyle O'Quinn",
+        "position": "C",
+        "points": "18",
+        "rebounds": "18",
+        "assists": "5",
+        "steals": "1",
+        "blocks": "2",
+        "turnovers": "3"
+    },
+    {
+        "playerName": "Semi Ojeleye",
+        "position": "PF",
+        "points": "7",
+        "rebounds": "8",
+        "assists": "2",
+        "steals": "1",
+        "blocks": "0",
+        "turnovers": "0"
+    },
+    {
+        "playerName": "Jahlil Okafor",
+        "position": "C",
+        "points": "65",
+        "rebounds": "32",
+        "assists": "7",
+        "steals": "3",
+        "blocks": "6",
+        "turnovers": "12"
+    },
+    {
+        "playerName": "Elie Okobo",
+        "position": "PG",
+        "points": "7",
+        "rebounds": "2",
+        "assists": "2",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "0"
+    },
+    {
+        "playerName": "Josh Okogie",
+        "position": "SG",
+        "points": "45",
+        "rebounds": "23",
+        "assists": "13",
+        "steals": "9",
+        "blocks": "1",
+        "turnovers": "9"
+    },
+    {
+        "playerName": "KZ Okpala",
+        "position": "SF",
+        "points": "0",
+        "rebounds": "1",
+        "assists": "0",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "1"
+    },
+    {
+        "playerName": "Kelly Olynyk",
+        "position": "C",
+        "points": "29",
+        "rebounds": "23",
+        "assists": "8",
+        "steals": "4",
+        "blocks": "3",
+        "turnovers": "9"
+    },
+    {
+        "playerName": "Cedi Osman",
+        "position": "SF",
+        "points": "46",
+        "rebounds": "13",
+        "assists": "8",
+        "steals": "6",
+        "blocks": "1",
+        "turnovers": "6"
+    },
+    {
+        "playerName": "Kelly Oubre",
+        "position": "SF",
+        "points": "108",
+        "rebounds": "36",
+        "assists": "10",
+        "steals": "8",
+        "blocks": "5",
+        "turnovers": "8"
+    },
+    {
+        "playerName": "Jabari Parker",
+        "position": "PF",
+        "points": "69",
+        "rebounds": "19",
+        "assists": "5",
+        "steals": "2",
+        "blocks": "1",
+        "turnovers": "9"
+    },
+    {
+        "playerName": "Eric Paschall",
+        "position": "PF",
+        "points": "83",
+        "rebounds": "18",
+        "assists": "10",
+        "steals": "4",
+        "blocks": "3",
+        "turnovers": "7"
+    },
+    {
+        "playerName": "Patrick Patterson",
+        "position": "PF",
+        "points": "35",
+        "rebounds": "28",
+        "assists": "9",
+        "steals": "2",
+        "blocks": "1",
+        "turnovers": "3"
+    },
+    {
+        "playerName": "Justin Patton",
+        "position": "C",
+        "points": "0",
+        "rebounds": "2",
+        "assists": "0",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "1"
+    },
+    {
+        "playerName": "Chris Paul",
+        "position": "PG",
+        "points": "89",
+        "rebounds": "22",
+        "assists": "27",
+        "steals": "9",
+        "blocks": "0",
+        "turnovers": "19"
+    },
+    {
+        "playerName": "Elfrid Payton",
+        "position": "PG",
+        "points": "32",
+        "rebounds": "12",
+        "assists": "15",
+        "steals": "10",
+        "blocks": "0",
+        "turnovers": "7"
+    },
+    {
+        "playerName": "Theo Pinson",
+        "position": "SG",
+        "points": "0",
+        "rebounds": "1",
+        "assists": "1",
+        "steals": "1",
+        "blocks": "0",
+        "turnovers": "0"
+    },
+    {
+        "playerName": "Mason Plumlee",
+        "position": "C",
+        "points": "37",
+        "rebounds": "30",
+        "assists": "16",
+        "steals": "3",
+        "blocks": "3",
+        "turnovers": "6"
+    },
+    {
+        "playerName": "Vincent Poirier",
+        "position": "C",
+        "points": "4",
+        "rebounds": "1",
+        "assists": "0",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "1"
+    },
+    {
+        "playerName": "Jakob Pöltl",
+        "position": "C",
+        "points": "28",
+        "rebounds": "27",
+        "assists": "8",
+        "steals": "0",
+        "blocks": "5",
+        "turnovers": "4"
+    },
+    {
+        "playerName": "Jordan Poole",
+        "position": "SG",
+        "points": "58",
+        "rebounds": "10",
+        "assists": "9",
+        "steals": "4",
+        "blocks": "0",
+        "turnovers": "9"
+    },
+    {
+        "playerName": "Kevin Porter",
+        "position": "SG",
+        "points": "24",
+        "rebounds": "13",
+        "assists": "6",
+        "steals": "1",
+        "blocks": "4",
+        "turnovers": "7"
+    },
+    {
+        "playerName": "Michael Porter",
+        "position": "PF",
+        "points": "18",
+        "rebounds": "8",
+        "assists": "1",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "2"
+    },
+    {
+        "playerName": "Otto Porter",
+        "position": "SF",
+        "points": "66",
+        "rebounds": "23",
+        "assists": "9",
+        "steals": "5",
+        "blocks": "1",
+        "turnovers": "4"
+    },
+    {
+        "playerName": "Bobby Portis",
+        "position": "C",
+        "points": "71",
+        "rebounds": "48",
+        "assists": "9",
+        "steals": "3",
+        "blocks": "3",
+        "turnovers": "6"
+    },
+    {
+        "playerName": "Kristaps Porziņģis",
+        "position": "PF",
+        "points": "105",
+        "rebounds": "40",
+        "assists": "13",
+        "steals": "1",
+        "blocks": "10",
+        "turnovers": "11"
+    },
+    {
+        "playerName": "Dwight Powell",
+        "position": "PF",
+        "points": "18",
+        "rebounds": "9",
+        "assists": "0",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "4"
+    },
+    {
+        "playerName": "Norman Powell",
+        "position": "SG",
+        "points": "46",
+        "rebounds": "25",
+        "assists": "9",
+        "steals": "6",
+        "blocks": "0",
+        "turnovers": "11"
+    },
+    {
+        "playerName": "Julius Randle",
+        "position": "PF",
+        "points": "86",
+        "rebounds": "66",
+        "assists": "30",
+        "steals": "5",
+        "blocks": "1",
+        "turnovers": "28"
+    },
+    {
+        "playerName": "Cam Reddish",
+        "position": "SF",
+        "points": "26",
+        "rebounds": "23",
+        "assists": "11",
+        "steals": "8",
+        "blocks": "1",
+        "turnovers": "10"
+    },
+    {
+        "playerName": "J.J. Redick",
+        "position": "SG",
+        "points": "62",
+        "rebounds": "10",
+        "assists": "10",
+        "steals": "1",
+        "blocks": "2",
+        "turnovers": "12"
+    },
+    {
+        "playerName": "Josh Richardson",
+        "position": "SG",
+        "points": "70",
+        "rebounds": "20",
+        "assists": "18",
+        "steals": "8",
+        "blocks": "6",
+        "turnovers": "16"
+    },
+    {
+        "playerName": "Austin Rivers",
+        "position": "SG",
+        "points": "33",
+        "rebounds": "7",
+        "assists": "5",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "0"
+    },
+    {
+        "playerName": "Duncan Robinson",
+        "position": "PF",
+        "points": "45",
+        "rebounds": "7",
+        "assists": "2",
+        "steals": "1",
+        "blocks": "3",
+        "turnovers": "3"
+    },
+    {
+        "playerName": "Glenn Robinson",
+        "position": "SF",
+        "points": "65",
+        "rebounds": "35",
+        "assists": "9",
+        "steals": "6",
+        "blocks": "2",
+        "turnovers": "6"
+    },
+    {
+        "playerName": "Jerome Robinson",
+        "position": "SG",
+        "points": "12",
+        "rebounds": "4",
+        "assists": "3",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "5"
+    },
+    {
+        "playerName": "Justin Robinson",
+        "position": "PG",
+        "points": "5",
+        "rebounds": "3",
+        "assists": "2",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "2"
+    },
+    {
+        "playerName": "Mitchell Robinson",
+        "position": "C",
+        "points": "51",
+        "rebounds": "33",
+        "assists": "3",
+        "steals": "4",
+        "blocks": "11",
+        "turnovers": "5"
+    },
+    {
+        "playerName": "Derrick Rose",
+        "position": "PG",
+        "points": "125",
+        "rebounds": "9",
+        "assists": "38",
+        "steals": "6",
+        "blocks": "3",
+        "turnovers": "23"
+    },
+    {
+        "playerName": "Terrence Ross",
+        "position": "SG",
+        "points": "52",
+        "rebounds": "20",
+        "assists": "8",
+        "steals": "6",
+        "blocks": "1",
+        "turnovers": "9"
+    },
+    {
+        "playerName": "Terry Rozier",
+        "position": "PG",
+        "points": "96",
+        "rebounds": "24",
+        "assists": "35",
+        "steals": "6",
+        "blocks": "3",
+        "turnovers": "20"
+    },
+    {
+        "playerName": "Ricky Rubio",
+        "position": "PG",
+        "points": "55",
+        "rebounds": "32",
+        "assists": "41",
+        "steals": "11",
+        "blocks": "0",
+        "turnovers": "14"
+    },
+    {
+        "playerName": "D'Angelo Russell",
+        "position": "SG",
+        "points": "95",
+        "rebounds": "18",
+        "assists": "32",
+        "steals": "0",
+        "blocks": "1",
+        "turnovers": "10"
+    },
+    {
+        "playerName": "Domantas Sabonis",
+        "position": "C",
+        "points": "109",
+        "rebounds": "57",
+        "assists": "13",
+        "steals": "3",
+        "blocks": "3",
+        "turnovers": "13"
+    },
+    {
+        "playerName": "JaKarr Sampson",
+        "position": "SF",
+        "points": "4",
+        "rebounds": "1",
+        "assists": "0",
+        "steals": "0",
+        "blocks": "1",
+        "turnovers": "0"
+    },
+    {
+        "playerName": "Dario Šarić",
+        "position": "PF",
+        "points": "57",
+        "rebounds": "39",
+        "assists": "14",
+        "steals": "9",
+        "blocks": "2",
+        "turnovers": "6"
+    },
+    {
+        "playerName": "Tomáš Satoranský",
+        "position": "PG",
+        "points": "36",
+        "rebounds": "10",
+        "assists": "28",
+        "steals": "6",
+        "blocks": "2",
+        "turnovers": "8"
+    },
+    {
+        "playerName": "Admiral Schofield",
+        "position": "SF",
+        "points": "22",
+        "rebounds": "7",
+        "assists": "1",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "0"
+    },
+    {
+        "playerName": "Dennis Schröder",
+        "position": "PG",
+        "points": "90",
+        "rebounds": "36",
+        "assists": "24",
+        "steals": "8",
+        "blocks": "2",
+        "turnovers": "15"
+    },
+    {
+        "playerName": "Mike Scott",
+        "position": "PF",
+        "points": "39",
+        "rebounds": "15",
+        "assists": "5",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "2"
+    },
+    {
+        "playerName": "Thabo Sefolosha",
+        "position": "SF",
+        "points": "3",
+        "rebounds": "16",
+        "assists": "5",
+        "steals": "2",
+        "blocks": "1",
+        "turnovers": "3"
+    },
+    {
+        "playerName": "Collin Sexton",
+        "position": "PG",
+        "points": "91",
+        "rebounds": "15",
+        "assists": "10",
+        "steals": "2",
+        "blocks": "0",
+        "turnovers": "11"
+    },
+    {
+        "playerName": "Landry Shamet",
+        "position": "SG",
+        "points": "53",
+        "rebounds": "8",
+        "assists": "15",
+        "steals": "3",
+        "blocks": "1",
+        "turnovers": "7"
+    },
+    {
+        "playerName": "Pascal Siakam",
+        "position": "PF",
+        "points": "156",
+        "rebounds": "51",
+        "assists": "20",
+        "steals": "4",
+        "blocks": "1",
+        "turnovers": "19"
+    },
+    {
+        "playerName": "Chris Silva",
+        "position": "PF",
+        "points": "18",
+        "rebounds": "16",
+        "assists": "3",
+        "steals": "3",
+        "blocks": "6",
+        "turnovers": "7"
+    },
+    {
+        "playerName": "Ben Simmons",
+        "position": "PG",
+        "points": "84",
+        "rebounds": "32",
+        "assists": "40",
+        "steals": "13",
+        "blocks": "3",
+        "turnovers": "22"
+    },
+    {
+        "playerName": "Anfernee Simons",
+        "position": "SG",
+        "points": "53",
+        "rebounds": "8",
+        "assists": "4",
+        "steals": "4",
+        "blocks": "1",
+        "turnovers": "9"
+    },
+    {
+        "playerName": "Marcus Smart",
+        "position": "SG",
+        "points": "53",
+        "rebounds": "18",
+        "assists": "24",
+        "steals": "6",
+        "blocks": "2",
+        "turnovers": "4"
+    },
+    {
+        "playerName": "Dennis Smith",
+        "position": "PG",
+        "points": "3",
+        "rebounds": "1",
+        "assists": "3",
+        "steals": "1",
+        "blocks": "1",
+        "turnovers": "2"
+    },
+    {
+        "playerName": "Ish Smith",
+        "position": "PG",
+        "points": "43",
+        "rebounds": "14",
+        "assists": "20",
+        "steals": "3",
+        "blocks": "2",
+        "turnovers": "4"
+    },
+    {
+        "playerName": "Tony Snell",
+        "position": "SF",
+        "points": "52",
+        "rebounds": "12",
+        "assists": "15",
+        "steals": "4",
+        "blocks": "2",
+        "turnovers": "2"
+    },
+    {
+        "playerName": "Omari Spellman",
+        "position": "PF",
+        "points": "35",
+        "rebounds": "33",
+        "assists": "5",
+        "steals": "5",
+        "blocks": "4",
+        "turnovers": "10"
+    },
+    {
+        "playerName": "Edmond Sumner",
+        "position": "PG",
+        "points": "21",
+        "rebounds": "3",
+        "assists": "6",
+        "steals": "5",
+        "blocks": "1",
+        "turnovers": "1"
+    },
+    {
+        "playerName": "Caleb Swanigan",
+        "position": "PF",
+        "points": "1",
+        "rebounds": "4",
+        "assists": "0",
+        "steals": "1",
+        "blocks": "2",
+        "turnovers": "1"
+    },
+    {
+        "playerName": "Jayson Tatum",
+        "position": "PF",
+        "points": "110",
+        "rebounds": "38",
+        "assists": "11",
+        "steals": "8",
+        "blocks": "3",
+        "turnovers": "9"
+    },
+    {
+        "playerName": "Jeff Teague",
+        "position": "PG",
+        "points": "69",
+        "rebounds": "11",
+        "assists": "35",
+        "steals": "7",
+        "blocks": "0",
+        "turnovers": "12"
+    },
+    {
+        "playerName": "Garrett Temple",
+        "position": "SG",
+        "points": "37",
+        "rebounds": "16",
+        "assists": "8",
+        "steals": "9",
+        "blocks": "3",
+        "turnovers": "4"
+    },
+    {
+        "playerName": "Daniel Theis",
+        "position": "C",
+        "points": "20",
+        "rebounds": "24",
+        "assists": "2",
+        "steals": "0",
+        "blocks": "8",
+        "turnovers": "2"
+    },
+    {
+        "playerName": "Isaiah Thomas",
+        "position": "PG",
+        "points": "49",
+        "rebounds": "9",
+        "assists": "22",
+        "steals": "1",
+        "blocks": "1",
+        "turnovers": "10"
+    },
+    {
+        "playerName": "Matt Thomas",
+        "position": "SG",
+        "points": "11",
+        "rebounds": "3",
+        "assists": "0",
+        "steals": "1",
+        "blocks": "0",
+        "turnovers": "1"
+    },
+    {
+        "playerName": "Tristan Thompson",
+        "position": "C",
+        "points": "88",
+        "rebounds": "57",
+        "assists": "11",
+        "steals": "1",
+        "blocks": "9",
+        "turnovers": "2"
+    },
+    {
+        "playerName": "Matisse Thybulle",
+        "position": "SG",
+        "points": "23",
+        "rebounds": "7",
+        "assists": "7",
+        "steals": "14",
+        "blocks": "7",
+        "turnovers": "11"
+    },
+    {
+        "playerName": "Anthony Tolliver",
+        "position": "PF",
+        "points": "19",
+        "rebounds": "19",
+        "assists": "6",
+        "steals": "2",
+        "blocks": "2",
+        "turnovers": "3"
+    },
+    {
+        "playerName": "Karl-Anthony Towns",
+        "position": "C",
+        "points": "109",
+        "rebounds": "46",
+        "assists": "16",
+        "steals": "10",
+        "blocks": "7",
+        "turnovers": "10"
+    },
+    {
+        "playerName": "Gary Trent",
+        "position": "SG",
+        "points": "0",
+        "rebounds": "1",
+        "assists": "0",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "0"
+    },
+    {
+        "playerName": "Allonzo Trier",
+        "position": "SG",
+        "points": "24",
+        "rebounds": "4",
+        "assists": "3",
+        "steals": "1",
+        "blocks": "1",
+        "turnovers": "6"
+    },
+    {
+        "playerName": "P.J. Tucker",
+        "position": "PF",
+        "points": "68",
+        "rebounds": "34",
+        "assists": "9",
+        "steals": "9",
+        "blocks": "3",
+        "turnovers": "6"
+    },
+    {
+        "playerName": "Evan Turner",
+        "position": "PG",
+        "points": "12",
+        "rebounds": "3",
+        "assists": "7",
+        "steals": "3",
+        "blocks": "0",
+        "turnovers": "2"
+    },
+    {
+        "playerName": "Myles Turner",
+        "position": "C",
+        "points": "59",
+        "rebounds": "27",
+        "assists": "2",
+        "steals": "2",
+        "blocks": "5",
+        "turnovers": "7"
+    },
+    {
+        "playerName": "Jonas Valančiūnas",
+        "position": "C",
+        "points": "60",
+        "rebounds": "43",
+        "assists": "9",
+        "steals": "2",
+        "blocks": "3",
+        "turnovers": "10"
+    },
+    {
+        "playerName": "Denzel Valentine",
+        "position": "SG",
+        "points": "3",
+        "rebounds": "1",
+        "assists": "0",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "0"
+    },
+    {
+        "playerName": "Jarred Vanderbilt",
+        "position": "PF",
+        "points": "0",
+        "rebounds": "1",
+        "assists": "1",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "0"
+    },
+    {
+        "playerName": "Fred VanVleet",
+        "position": "SG",
+        "points": "97",
+        "rebounds": "26",
+        "assists": "43",
+        "steals": "7",
+        "blocks": "1",
+        "turnovers": "14"
+    },
+    {
+        "playerName": "Noah Vonleh",
+        "position": "C",
+        "points": "25",
+        "rebounds": "19",
+        "assists": "3",
+        "steals": "4",
+        "blocks": "1",
+        "turnovers": "4"
+    },
+    {
+        "playerName": "Nikola Vučević",
+        "position": "C",
+        "points": "101",
+        "rebounds": "59",
+        "assists": "14",
+        "steals": "5",
+        "blocks": "4",
+        "turnovers": "8"
+    },
+    {
+        "playerName": "Moritz Wagner",
+        "position": "C",
+        "points": "58",
+        "rebounds": "23",
+        "assists": "2",
+        "steals": "3",
+        "blocks": "4",
+        "turnovers": "17"
+    },
+    {
+        "playerName": "Kemba Walker",
+        "position": "PG",
+        "points": "131",
+        "rebounds": "26",
+        "assists": "19",
+        "steals": "5",
+        "blocks": "2",
+        "turnovers": "11"
+    },
+    {
+        "playerName": "Lonnie Walker",
+        "position": "SG",
+        "points": "3",
+        "rebounds": "4",
+        "assists": "0",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "0"
+    },
+    {
+        "playerName": "Tyrone Wallace",
+        "position": "SG",
+        "points": "18",
+        "rebounds": "6",
+        "assists": "4",
+        "steals": "1",
+        "blocks": "0",
+        "turnovers": "3"
+    },
+    {
+        "playerName": "Taurean Waller-Prince",
+        "position": "SF",
+        "points": "93",
+        "rebounds": "38",
+        "assists": "8",
+        "steals": "6",
+        "blocks": "4",
+        "turnovers": "12"
+    },
+    {
+        "playerName": "Derrick Walton",
+        "position": "PG",
+        "points": "0",
+        "rebounds": "0",
+        "assists": "0",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "0"
+    },
+    {
+        "playerName": "Brad Wanamaker",
+        "position": "PG",
+        "points": "11",
+        "rebounds": "8",
+        "assists": "6",
+        "steals": "2",
+        "blocks": "1",
+        "turnovers": "4"
+    },
+    {
+        "playerName": "T.J. Warren",
+        "position": "SF",
+        "points": "64",
+        "rebounds": "14",
+        "assists": "2",
+        "steals": "8",
+        "blocks": "1",
+        "turnovers": "5"
+    },
+    {
+        "playerName": "PJ Washington",
+        "position": "PF",
+        "points": "90",
+        "rebounds": "40",
+        "assists": "7",
+        "steals": "7",
+        "blocks": "3",
+        "turnovers": "13"
+    },
+    {
+        "playerName": "Russell Westbrook",
+        "position": "PG",
+        "points": "117",
+        "rebounds": "55",
+        "assists": "49",
+        "steals": "10",
+        "blocks": "3",
+        "turnovers": "18"
+    },
+    {
+        "playerName": "Coby White",
+        "position": "PG",
+        "points": "72",
+        "rebounds": "19",
+        "assists": "14",
+        "steals": "4",
+        "blocks": "0",
+        "turnovers": "7"
+    },
+    {
+        "playerName": "Derrick White",
+        "position": "PG",
+        "points": "70",
+        "rebounds": "16",
+        "assists": "9",
+        "steals": "1",
+        "blocks": "3",
+        "turnovers": "4"
+    },
+    {
+        "playerName": "Hassan Whiteside",
+        "position": "C",
+        "points": "64",
+        "rebounds": "61",
+        "assists": "4",
+        "steals": "3",
+        "blocks": "6",
+        "turnovers": "13"
+    },
+    {
+        "playerName": "Andrew Wiggins",
+        "position": "SF",
+        "points": "102",
+        "rebounds": "28",
+        "assists": "10",
+        "steals": "2",
+        "blocks": "3",
+        "turnovers": "7"
+    },
+    {
+        "playerName": "Grant Williams",
+        "position": "PF",
+        "points": "23",
+        "rebounds": "15",
+        "assists": "6",
+        "steals": "4",
+        "blocks": "3",
+        "turnovers": "4"
+    },
+    {
+        "playerName": "Kenrich Williams",
+        "position": "PF",
+        "points": "33",
+        "rebounds": "26",
+        "assists": "10",
+        "steals": "6",
+        "blocks": "4",
+        "turnovers": "3"
+    },
+    {
+        "playerName": "Lou Williams",
+        "position": "SG",
+        "points": "125",
+        "rebounds": "19",
+        "assists": "30",
+        "steals": "3",
+        "blocks": "0",
+        "turnovers": "17"
+    },
+    {
+        "playerName": "Marvin Williams",
+        "position": "PF",
+        "points": "46",
+        "rebounds": "12",
+        "assists": "4",
+        "steals": "3",
+        "blocks": "0",
+        "turnovers": "3"
+    },
+    {
+        "playerName": "Robert Williams",
+        "position": "C",
+        "points": "17",
+        "rebounds": "20",
+        "assists": "8",
+        "steals": "5",
+        "blocks": "4",
+        "turnovers": "2"
+    },
+    {
+        "playerName": "Nigel Williams-Goss",
+        "position": "PG",
+        "points": "0",
+        "rebounds": "0",
+        "assists": "1",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "1"
+    },
+    {
+        "playerName": "D.J. Wilson",
+        "position": "PF",
+        "points": "3",
+        "rebounds": "2",
+        "assists": "1",
+        "steals": "0",
+        "blocks": "0",
+        "turnovers": "0"
+    },
+    {
+        "playerName": "Justise Winslow",
+        "position": "SF",
+        "points": "59",
+        "rebounds": "34",
+        "assists": "23",
+        "steals": "5",
+        "blocks": "3",
+        "turnovers": "14"
+    },
+    {
+        "playerName": "Christian Wood",
+        "position": "PF",
+        "points": "48",
+        "rebounds": "22",
+        "assists": "0",
+        "steals": "0",
+        "blocks": "4",
+        "turnovers": "6"
+    },
+    {
+        "playerName": "Delon Wright",
+        "position": "SG",
+        "points": "57",
+        "rebounds": "17",
+        "assists": "19",
+        "steals": "8",
+        "blocks": "0",
+        "turnovers": "3"
+    },
+    {
+        "playerName": "Thaddeus Young",
+        "position": "PF",
+        "points": "66",
+        "rebounds": "23",
+        "assists": "9",
+        "steals": "6",
+        "blocks": "2",
+        "turnovers": "8"
+    },
+    {
+        "playerName": "Trae Young",
+        "position": "PG",
+        "points": "107",
+        "rebounds": "20",
+        "assists": "29",
+        "steals": "4",
+        "blocks": "0",
+        "turnovers": "20"
+    },
+    {
+        "playerName": "Cody Zeller",
+        "position": "C",
+        "points": "70",
+        "rebounds": "62",
+        "assists": "8",
+        "steals": "3",
+        "blocks": "3",
+        "turnovers": "8"
+    },
+    {
+        "playerName": "Ivica Zubac",
+        "position": "C",
+        "points": "52",
+        "rebounds": "35",
+        "assists": "3",
+        "steals": "0",
+        "blocks": "10",
+        "turnovers": "7"
+    }
+]
