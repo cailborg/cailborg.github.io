@@ -127,6 +127,7 @@ console.log("scores", scores);
 
 function buildHtml() {
   var header =
+    "<title>NBA Fantasy Draft</title>" +
     "<link rel=" +
     "stylesheet " +
     "href=" +

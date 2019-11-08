@@ -8,6 +8,10 @@ Only the top three _Front Court_ (SG or PG) and the top two _Back Court_ (PF, SF
 
 ---
 
+There's also a side pot for each teams _Sixth Man_ which has it's own leaderboard at the bottom
+
+---
+
 Scores are calculated using the following multipliers
 
 | Stat      | Multiplier |
