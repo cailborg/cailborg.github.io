@@ -178,7 +178,7 @@ function content(scores) {
       "<div class=" +
       "card-bottom>" +
       value[2].join(", ") +
-      " " +
+      ", " +
       value[3].join(", ") +
       "</div>" +
       "</div>";
