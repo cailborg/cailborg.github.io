@@ -73,8 +73,21 @@ for (var team in teams) {
   front.sort((a, b) => b[3] - a[3]);
   back.sort((a, b) => b[3] - a[3]);
 
-  // console.log("sorted front " + team, front);
-  // console.log("sorted back " + team, back);
+  // Determine 6th man
+
+  let fourthFront = front.slice(3, 4);
+  let thirdBack = back.slice(2, 3);
+
+  function sixthMan(back, front) {
+    if (back[0][3] > front[0][3]) {
+      return back;
+    } else {
+      return front;
+    }
+  }
+  let sixth = sixthMan(thirdBack, fourthFront);
+
+  // console.log("sixth", sixth);
 
   // Slice off the top 3 front court and top 2 back court players
   let slicedFront = front.slice(0, 3);
@@ -103,7 +116,7 @@ for (var team in teams) {
   let total = sumBack + sumFront;
 
   // push results to the store
-  scores.push([team, total, teamPlayersFront, teamPlayersBack]);
+  scores.push([team, total, teamPlayersFront, teamPlayersBack, sixth]);
 }
 
 // Do something with scores
@@ -127,6 +140,7 @@ function buildHtml() {
     "rel=" +
     "stylesheet></link>";
   let body = content(scores);
+  let sixthBoard = leaderboard(scores);
 
   return (
     "<!DOCTYPE html>" +
@@ -138,7 +152,10 @@ function buildHtml() {
     "assets/logo.svg" +
     " />" +
     body +
-    "</body></html>"
+    "<h2>Sixth Man Leaderboard</h2>" +
+    "<ul>" +
+    sixthBoard +
+    "</ul></div></body></html>"
   );
 }
 
@@ -159,11 +176,31 @@ function content(scores) {
       "</div>" +
       "<div class=" +
       "card-bottom>" +
-      value[2] +
+      value[2].join(", ") +
       " " +
-      value[3] +
+      value[3].join(", ") +
       "</div>" +
       "</div>";
+  }
+  return result;
+}
+
+function leaderboard(scores) {
+  var result = "";
+  for (let value of scores) {
+    console.log("name", value[4][0]);
+    result +=
+      "<li>" +
+      "<span>" +
+      value[0] +
+      "</span>" +
+      "<span>" +
+      value[4][0][0] +
+      "</span>" +
+      "<span>" +
+      value[4][0][3] +
+      "</span>" +
+      "</li>";
   }
   return result;
 }
