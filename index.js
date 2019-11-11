@@ -72,6 +72,7 @@ for (var team in teams) {
 
   front.sort((a, b) => b[3] - a[3]);
   back.sort((a, b) => b[3] - a[3]);
+  // console.log(front, back);
 
   // Determine 6th man
 
@@ -116,12 +117,13 @@ for (var team in teams) {
   let total = sumBack + sumFront;
 
   // push results to the store
+  // console.log(teamPlayersFront, teamPlayersBack);
   scores.push([team, total, teamPlayersFront, teamPlayersBack, sixth]);
 }
 
 // Do something with scores
 scores.sort((a, b) => b[1] - a[1]);
-console.log("scores", scores);
+// console.log("scores", scores);
 
 // Create HTML
 
@@ -189,7 +191,7 @@ function content(scores) {
 function leaderboard(scores) {
   var result = "";
   for (let value of scores) {
-    console.log("name", value[4][0]);
+    // console.log("name", value[4][0]);
     result +=
       "<li>" +
       "<span>" +
