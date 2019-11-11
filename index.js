@@ -179,9 +179,14 @@ function content(scores) {
       "</div>" +
       "<div class=" +
       "card-bottom>" +
+      "<h3>Front Court</h3>" +
+      "<span>" +
       value[2].join(", ") +
-      ", " +
+      "</span>" +
+      "<h3>Back Court</h3>" +
+      "<span>" +
       value[3].join(", ") +
+      "</span>" +
       "</div>" +
       "</div>";
   }
