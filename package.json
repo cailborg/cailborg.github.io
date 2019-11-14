@@ -6,6 +6,7 @@
   "author": "Cail Borg <Cail.Borg@ofx.com>",
   "license": "MIT",
   "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
     "nodemon": "^1.19.4"
   },
   "scripts": {

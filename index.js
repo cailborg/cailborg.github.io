@@ -1,225 +1,241 @@
 const { teams } = require("./teams");
 var fs = require("fs");
-var json = JSON.parse(fs.readFileSync("./data.json", "utf8"));
+const json = JSON.parse(fs.readFileSync("./data.json", "utf8"));
 
 // Store scores for each team here
 const scores = [];
 
-// Loop over each team and check whether a player in data.json matches and assign to that team
-for (var team in teams) {
-  let result = teams[team];
-  let values = Object.values(result);
-  let front = [];
-  let back = [];
+// var fetch = require("isomorphic-fetch");
+// async function fetcher() {
+//   let data = await fetch(
+//     "https://simplescraper.io/api/kxATahFx3nGLmAfVoejZ?apikey=IPOSbKJKp953YpE71Zz4mxY1Bq3E9ltK&offset=0&limit=500"
+//   );
+//   let json = await data.json();
+//   // console.log("test", json);
+//   return json;
+// }
 
-  for (const val of values) {
-    let match = json.filter(x => x.playerName === val);
+async function main() {
+  // let json = await fetcher();
+  // console.log("debug", json);
 
-    //Add up the points
-    let playerValues = { ...match[0] };
-    let sum =
-      playerValues.points * 1 +
-      playerValues.rebounds * 1.5 +
-      playerValues.assists * 1.5 +
-      playerValues.steals * 2 +
-      playerValues.blocks * 2 -
-      playerValues.turnovers * 2;
+  // Loop over each team and check whether a player in data.json matches and assign to that team
+  for (var team in teams) {
+    let result = teams[team];
+    let values = Object.values(result);
+    let front = [];
+    let back = [];
 
-    function isNumber(val) {
-      if (isNaN(val) === true) {
-        return 0;
+    for (const val of values) {
+      let match = Object.values(json).filter(x => x.playerName === val);
+
+      //Add up the points
+      let playerValues = { ...match[0] };
+      let sum =
+        playerValues.points * 1 +
+        playerValues.rebounds * 1.5 +
+        playerValues.assists * 1.5 +
+        playerValues.steals * 2 +
+        playerValues.blocks * 2 -
+        playerValues.turnovers * 2;
+
+      function isNumber(val) {
+        if (isNaN(val) === true) {
+          return 0;
+        } else {
+          return val;
+        }
+      }
+      let number = isNumber(sum);
+
+      // Determine whether player is back or front court
+
+      function courtFinder(position, playerName) {
+        if (playerName === "Jaylen Brown") {
+          return "Front";
+        } else if (playerName === "Justise Winslow") {
+          return "Back";
+        } else if (position === "SG" || position === "PG") {
+          return "Back";
+        } else {
+          return "Front";
+        }
+      }
+      let courtPosition = courtFinder(
+        playerValues.position,
+        playerValues.playerName
+      );
+
+      // create the player array and push it into the team array
+
+      let data = [
+        playerValues.playerName,
+        playerValues.position,
+        courtPosition,
+        number
+      ];
+
+      if (data[2] === "Front") {
+        front.push(data);
       } else {
-        return val;
+        back.push(data);
       }
     }
-    let number = isNumber(sum);
 
-    // Determine whether player is back or front court
+    //Sort the results by court position and score
 
-    function courtFinder(position, playerName) {
-      if (playerName === "Jaylen Brown") {
-        return "Front";
-      } else if (playerName === "Justise Winslow") {
-        return "Back";
-      } else if (position === "SG" || position === "PG") {
-        return "Back";
+    front.sort((a, b) => b[3] - a[3]);
+    back.sort((a, b) => b[3] - a[3]);
+    // console.log(front, back);
+
+    // Determine 6th man
+
+    let fourthFront = front.slice(3, 4);
+    let thirdBack = back.slice(2, 3);
+
+    function sixthMan(back, front) {
+      if (back[0][3] > front[0][3]) {
+        return back;
       } else {
-        return "Front";
+        return front;
       }
     }
-    let courtPosition = courtFinder(
-      playerValues.position,
-      playerValues.playerName
+    let sixth = sixthMan(thirdBack, fourthFront);
+
+    // console.log("sixth", sixth);
+
+    // Slice off the top 3 front court and top 2 back court players
+    let slicedFront = front.slice(0, 3);
+    let slicedBack = back.slice(0, 2);
+
+    // Add up the scores
+    let sumFront = slicedFront.reduce(
+      (accumulator, currentValue) => accumulator + currentValue[3],
+      0
+    );
+    let sumBack = slicedBack.reduce(
+      (accumulator, currentValue) => accumulator + currentValue[3],
+      0
     );
 
-    // create the player array and push it into the team array
+    var teamPlayersFront = slicedFront.reduce(
+      (accumulator, currentValue) => accumulator.concat(currentValue[0]),
+      []
+    );
 
-    let data = [
-      playerValues.playerName,
-      playerValues.position,
-      courtPosition,
-      number
-    ];
+    var teamPlayersBack = slicedBack.reduce(
+      (accumulator, currentValue) => accumulator.concat(currentValue[0]),
+      []
+    );
 
-    if (data[2] === "Front") {
-      front.push(data);
-    } else {
-      back.push(data);
+    let total = sumBack + sumFront;
+
+    // push results to the store
+    // console.log(teamPlayersFront, teamPlayersBack);
+    scores.push([team, total, teamPlayersFront, teamPlayersBack, sixth]);
+  }
+
+  // Do something with scores
+  scores.sort((a, b) => b[1] - a[1]);
+  // console.log("scores", scores);
+
+  // Create HTML
+
+  function buildHtml() {
+    var header =
+      "<title>NBA Fantasy Draft</title>" +
+      "<link rel=" +
+      "stylesheet " +
+      "href=" +
+      "css/normalize.css />" +
+      "<link rel=" +
+      "stylesheet " +
+      "href=" +
+      "css/style.css />" +
+      "<link href=" +
+      "https://fonts.googleapis.com/css?family=Teko&display=swap " +
+      "rel=" +
+      "stylesheet></link>";
+    let body = content(scores);
+    let sixthBoard = leaderboard(scores);
+
+    return (
+      "<!DOCTYPE html>" +
+      "<html><head>" +
+      header +
+      "</head><body><div class=" +
+      "main>" +
+      "<img src=" +
+      "assets/logo.svg" +
+      " />" +
+      body +
+      "<h2>Sixth Man Leaderboard</h2>" +
+      "<ul>" +
+      sixthBoard +
+      "</ul></div></body></html>"
+    );
+  }
+
+  function content(scores) {
+    var result = "";
+    for (let value of scores) {
+      result +=
+        "<div class=" +
+        "card>" +
+        "<div class=" +
+        "card-heading>" +
+        "<span>" +
+        value[0] +
+        "</span>" +
+        "<h1>" +
+        value[1] +
+        "</h1>" +
+        "</div>" +
+        "<div class=" +
+        "card-bottom>" +
+        "<h3>Front Court</h3>" +
+        "<span>" +
+        value[2].join(", ") +
+        "</span>" +
+        "<h3>Back Court</h3>" +
+        "<span>" +
+        value[3].join(", ") +
+        "</span>" +
+        "</div>" +
+        "</div>";
     }
+    return result;
   }
 
-  //Sort the results by court position and score
-
-  front.sort((a, b) => b[3] - a[3]);
-  back.sort((a, b) => b[3] - a[3]);
-  // console.log(front, back);
-
-  // Determine 6th man
-
-  let fourthFront = front.slice(3, 4);
-  let thirdBack = back.slice(2, 3);
-
-  function sixthMan(back, front) {
-    if (back[0][3] > front[0][3]) {
-      return back;
-    } else {
-      return front;
+  function leaderboard(scores) {
+    var result = "";
+    for (let value of scores) {
+      // console.log("name", value[4][0]);
+      result +=
+        "<li>" +
+        "<span>" +
+        value[0] +
+        "</span>" +
+        "<span>" +
+        value[4][0][0] +
+        "</span>" +
+        "<span>" +
+        value[4][0][3] +
+        "</span>" +
+        "</li>";
     }
+    return result;
   }
-  let sixth = sixthMan(thirdBack, fourthFront);
 
-  // console.log("sixth", sixth);
+  // Generate index.html
+  var fileName = "index.html";
+  var stream = fs.createWriteStream(fileName);
 
-  // Slice off the top 3 front court and top 2 back court players
-  let slicedFront = front.slice(0, 3);
-  let slicedBack = back.slice(0, 2);
+  stream.once("open", function(fd) {
+    var html = buildHtml();
 
-  // Add up the scores
-  let sumFront = slicedFront.reduce(
-    (accumulator, currentValue) => accumulator + currentValue[3],
-    0
-  );
-  let sumBack = slicedBack.reduce(
-    (accumulator, currentValue) => accumulator + currentValue[3],
-    0
-  );
-
-  var teamPlayersFront = slicedFront.reduce(
-    (accumulator, currentValue) => accumulator.concat(currentValue[0]),
-    []
-  );
-
-  var teamPlayersBack = slicedBack.reduce(
-    (accumulator, currentValue) => accumulator.concat(currentValue[0]),
-    []
-  );
-
-  let total = sumBack + sumFront;
-
-  // push results to the store
-  // console.log(teamPlayersFront, teamPlayersBack);
-  scores.push([team, total, teamPlayersFront, teamPlayersBack, sixth]);
+    stream.end(html);
+    console.log("Build complete");
+  });
 }
-
-// Do something with scores
-scores.sort((a, b) => b[1] - a[1]);
-// console.log("scores", scores);
-
-// Create HTML
-
-function buildHtml() {
-  var header =
-    "<title>NBA Fantasy Draft</title>" +
-    "<link rel=" +
-    "stylesheet " +
-    "href=" +
-    "css/normalize.css />" +
-    "<link rel=" +
-    "stylesheet " +
-    "href=" +
-    "css/style.css />" +
-    "<link href=" +
-    "https://fonts.googleapis.com/css?family=Teko&display=swap " +
-    "rel=" +
-    "stylesheet></link>";
-  let body = content(scores);
-  let sixthBoard = leaderboard(scores);
-
-  return (
-    "<!DOCTYPE html>" +
-    "<html><head>" +
-    header +
-    "</head><body><div class=" +
-    "main>" +
-    "<img src=" +
-    "assets/logo.svg" +
-    " />" +
-    body +
-    "<h2>Sixth Man Leaderboard</h2>" +
-    "<ul>" +
-    sixthBoard +
-    "</ul></div></body></html>"
-  );
-}
-
-function content(scores) {
-  var result = "";
-  for (let value of scores) {
-    result +=
-      "<div class=" +
-      "card>" +
-      "<div class=" +
-      "card-heading>" +
-      "<span>" +
-      value[0] +
-      "</span>" +
-      "<h1>" +
-      value[1] +
-      "</h1>" +
-      "</div>" +
-      "<div class=" +
-      "card-bottom>" +
-      "<h3>Front Court</h3>" +
-      "<span>" +
-      value[2].join(", ") +
-      "</span>" +
-      "<h3>Back Court</h3>" +
-      "<span>" +
-      value[3].join(", ") +
-      "</span>" +
-      "</div>" +
-      "</div>";
-  }
-  return result;
-}
-
-function leaderboard(scores) {
-  var result = "";
-  for (let value of scores) {
-    // console.log("name", value[4][0]);
-    result +=
-      "<li>" +
-      "<span>" +
-      value[0] +
-      "</span>" +
-      "<span>" +
-      value[4][0][0] +
-      "</span>" +
-      "<span>" +
-      value[4][0][3] +
-      "</span>" +
-      "</li>";
-  }
-  return result;
-}
-
-// Generate index.html
-var fileName = "index.html";
-var stream = fs.createWriteStream(fileName);
-
-stream.once("open", function(fd) {
-  var html = buildHtml();
-
-  stream.end(html);
-  console.log("Build complete");
-});
+main();
