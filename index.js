@@ -136,11 +136,14 @@ async function main() {
   }
 
   // Do something with scores
-  scores.sort((a, b) => b[1] - a[1]);
+  let scoreMain = [...scores].sort((a, b) => b[1] - a[1]);
   // console.log("scores", scores);
 
   // Sort sixth man leaderboard
-  var scoreSix = scores.sort((a, b) => b[4][0][3] - a[4][0][3]);
+  let scoreSix = [...scores].sort((a, b) => b[4][0][3] - a[4][0][3]);
+
+  // console.log("main", scoreMain);
+  // console.log("six", scoreSix);
 
   // Create HTML
 
@@ -159,7 +162,7 @@ async function main() {
       "https://fonts.googleapis.com/css?family=Teko&display=swap " +
       "rel=" +
       "stylesheet></link>";
-    let body = content(scores);
+    let body = content(scoreMain);
     let sixthBoard = leaderboard(scoreSix);
 
     return (
