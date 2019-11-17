@@ -139,6 +139,9 @@ async function main() {
   scores.sort((a, b) => b[1] - a[1]);
   // console.log("scores", scores);
 
+  // Sort sixth man leaderboard
+  var scoreSix = scores.sort((a, b) => b[4][0][3] - a[4][0][3]);
+
   // Create HTML
 
   function buildHtml() {
@@ -157,7 +160,7 @@ async function main() {
       "rel=" +
       "stylesheet></link>";
     let body = content(scores);
-    let sixthBoard = leaderboard(scores);
+    let sixthBoard = leaderboard(scoreSix);
 
     return (
       "<!DOCTYPE html>" +
