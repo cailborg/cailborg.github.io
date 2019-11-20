@@ -5,20 +5,7 @@ const json = JSON.parse(fs.readFileSync("./data.json", "utf8"));
 // Store scores for each team here
 const scores = [];
 
-// var fetch = require("isomorphic-fetch");
-// async function fetcher() {
-//   let data = await fetch(
-//     "https://simplescraper.io/api/kxATahFx3nGLmAfVoejZ?apikey=IPOSbKJKp953YpE71Zz4mxY1Bq3E9ltK&offset=0&limit=500"
-//   );
-//   let json = await data.json();
-//   // console.log("test", json);
-//   return json;
-// }
-
 async function main() {
-  // let json = await fetcher();
-  // console.log("debug", json);
-
   // Loop over each team and check whether a player in data.json matches and assign to that team
   for (var team in teams) {
     let result = teams[team];
@@ -107,6 +94,7 @@ async function main() {
     // Slice off the top 3 front court and top 2 back court players
     let slicedFront = front.slice(0, 3);
     let slicedBack = back.slice(0, 2);
+    // console.log("sliced", slicedBack);
 
     // Add up the scores
     let sumFront = slicedFront.reduce(
@@ -127,12 +115,30 @@ async function main() {
       (accumulator, currentValue) => accumulator.concat(currentValue[0]),
       []
     );
+    var teamPlayersScoreBack = slicedBack.reduce(
+      (accumulator, currentValue) => accumulator.concat(currentValue[3]),
+      []
+    );
+    var teamPlayersScoreFront = slicedFront.reduce(
+      (accumulator, currentValue) => accumulator.concat(currentValue[3]),
+      []
+    );
+    // console.log("playerscore", teamPlayersScoreBack);
+    // console.log("playerscore", teamPlayersScoreFront);
 
     let total = sumBack + sumFront;
 
     // push results to the store
     // console.log(teamPlayersFront, teamPlayersBack);
-    scores.push([team, total, teamPlayersFront, teamPlayersBack, sixth]);
+    scores.push([
+      team,
+      total,
+      teamPlayersFront,
+      teamPlayersBack,
+      sixth,
+      teamPlayersScoreFront,
+      teamPlayersScoreBack
+    ]);
   }
 
   // Do something with scores
@@ -203,10 +209,20 @@ async function main() {
         "<span>" +
         value[2].join(", ") +
         "</span>" +
+        "<div>" +
+        "(" +
+        value[5].join(", ") +
+        ")" +
+        "</div>" +
         "<h3>Back Court</h3>" +
         "<span>" +
         value[3].join(", ") +
         "</span>" +
+        "<div>" +
+        "(" +
+        value[6].join(", ") +
+        ")" +
+        "</div>" +
         "</div>" +
         "</div>";
     }
@@ -224,6 +240,11 @@ async function main() {
         "</span>" +
         "<span>" +
         value[4][0][0] +
+        "<span>" +
+        " (" +
+        value[4][0][2] +
+        ")" +
+        "</span>" +
         "</span>" +
         "<span>" +
         value[4][0][3] +

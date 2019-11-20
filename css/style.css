@@ -96,6 +96,11 @@ h2 {
   margin: 0;
   margin-bottom: 0.5rem;
 }
+.card-bottom div {
+  font-family: arial;
+  color: #989aa0;
+  font-size: 1.5rem !important;
+}
 .card-bottom h3:nth-of-type(2) {
   margin-top: 2rem;
 }
@@ -103,4 +108,9 @@ h2 {
   .main {
     width: 48rem;
   }
+}
+li span span {
+  font-family: arial;
+  color: #989aa0 !important;
+  font-size: 1.5rem !important;
 }
