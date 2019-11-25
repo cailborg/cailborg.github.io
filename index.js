@@ -42,6 +42,8 @@ async function main() {
           return "Front";
         } else if (playerName === "Justise Winslow") {
           return "Back";
+        } else if (playerName === "DeMar DeRozan") {
+          return "Back";
         } else if (position === "SG" || position === "PG") {
           return "Back";
         } else {
@@ -143,7 +145,7 @@ async function main() {
 
   // Do something with scores
   let scoreMain = [...scores].sort((a, b) => b[1] - a[1]);
-  // console.log("scores", scores);
+  // console.log("scores", scoreMain);
 
   // Sort sixth man leaderboard
   let scoreSix = [...scores].sort((a, b) => b[4][0][3] - a[4][0][3]);
