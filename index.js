@@ -1,6 +1,15 @@
 const { teams } = require("./teams");
 var fs = require("fs");
 const json = JSON.parse(fs.readFileSync("./data.json", "utf8"));
+var stats = fs.statSync("./data.json", "utf8");
+var mtime = JSON.stringify(stats.mtime);
+
+var formatted = mtime
+  .replace(/"/, "")
+  .replace("T", " ")
+  .replace(/\..+/, "");
+// console.log(mtime);
+// console.log(formatted);
 
 // Store scores for each team here
 const scores = [];
@@ -182,6 +191,9 @@ async function main() {
       "<img src=" +
       "assets/logo.svg" +
       " />" +
+      "<span class=date>Last updated: " +
+      formatted +
+      " </span>" +
       body +
       "<h2>Sixth Man Leaderboard</h2>" +
       "<ul>" +

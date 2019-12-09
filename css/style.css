@@ -26,7 +26,10 @@ img {
   margin: 0 auto;
   padding: 0 24px 0 24px;
 }
-
+.date {
+  font-size: 2rem;
+  color: #989aa0;
+}
 .card {
   width: 100%;
   display: flex;
