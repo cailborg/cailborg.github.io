@@ -53,12 +53,15 @@ async function main() {
           return "Back";
         } else if (playerName === "DeMar DeRozan") {
           return "Back";
+        } else if (playerName === "Trae Young") {
+          return "Back";
         } else if (position === "SG" || position === "PG") {
           return "Back";
         } else {
           return "Front";
         }
       }
+      console.log(playerValues.playerName, playerValues.position);
       let courtPosition = courtFinder(
         playerValues.position,
         playerValues.playerName
@@ -72,7 +75,7 @@ async function main() {
         courtPosition,
         number
       ];
-
+      console.log(data[0], data[2]);
       if (data[2] === "Front") {
         front.push(data);
       } else {
@@ -84,7 +87,7 @@ async function main() {
 
     front.sort((a, b) => b[3] - a[3]);
     back.sort((a, b) => b[3] - a[3]);
-    console.log(front, back);
+    // console.log(front, back);
 
     // Determine 6th man
 
@@ -100,7 +103,7 @@ async function main() {
     }
     let sixth = sixthMan(thirdBack, fourthFront);
 
-    console.log("sixth", sixth);
+    // console.log("sixth", sixth);
 
     // Slice off the top 3 front court and top 2 back court players
     let slicedFront = front.slice(0, 3);
