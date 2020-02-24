@@ -53,15 +53,13 @@ async function main() {
           return "Back";
         } else if (playerName === "DeMar DeRozan") {
           return "Back";
-        } else if (playerName === "Trae Young") {
-          return "Back";
         } else if (position === "SG" || position === "PG") {
           return "Back";
         } else {
           return "Front";
         }
       }
-      console.log(playerValues.playerName, playerValues.position);
+      console.log(playerValues.playerName, playerValues.team);
       let courtPosition = courtFinder(
         playerValues.position,
         playerValues.playerName
@@ -73,9 +71,10 @@ async function main() {
         playerValues.playerName,
         playerValues.position,
         courtPosition,
-        number
+        number,
+        playerValues.team
       ];
-      console.log(data[0], data[2]);
+      // console.log(data[0], data[2]);
       if (data[2] === "Front") {
         front.push(data);
       } else {
