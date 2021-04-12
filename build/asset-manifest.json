@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/react-stripe-menu/static/css/main.ef76895a.chunk.css",
-    "main.js": "/react-stripe-menu/static/js/main.ceb45fb7.chunk.js",
-    "main.js.map": "/react-stripe-menu/static/js/main.ceb45fb7.chunk.js.map",
-    "runtime~main.js": "/react-stripe-menu/static/js/runtime~main.cf391686.js",
-    "runtime~main.js.map": "/react-stripe-menu/static/js/runtime~main.cf391686.js.map",
-    "static/css/2.764ccc25.chunk.css": "/react-stripe-menu/static/css/2.764ccc25.chunk.css",
-    "static/js/2.58db6d04.chunk.js": "/react-stripe-menu/static/js/2.58db6d04.chunk.js",
-    "static/js/2.58db6d04.chunk.js.map": "/react-stripe-menu/static/js/2.58db6d04.chunk.js.map",
-    "index.html": "/react-stripe-menu/index.html",
-    "precache-manifest.74e1512e6dbc25ada479ed00b5474026.js": "/react-stripe-menu/precache-manifest.74e1512e6dbc25ada479ed00b5474026.js",
-    "service-worker.js": "/react-stripe-menu/service-worker.js",
-    "static/css/2.764ccc25.chunk.css.map": "/react-stripe-menu/static/css/2.764ccc25.chunk.css.map",
-    "static/css/main.ef76895a.chunk.css.map": "/react-stripe-menu/static/css/main.ef76895a.chunk.css.map",
-    "static/media/geograph.css": "/react-stripe-menu/static/media/geograph-web-thin.fc405405.eot"
+    "main.css": "/static/css/main.ab098e70.chunk.css",
+    "main.js": "/static/js/main.1f80408f.chunk.js",
+    "main.js.map": "/static/js/main.1f80408f.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.764ccc25.chunk.css": "/static/css/2.764ccc25.chunk.css",
+    "static/js/2.9692fbaa.chunk.js": "/static/js/2.9692fbaa.chunk.js",
+    "static/js/2.9692fbaa.chunk.js.map": "/static/js/2.9692fbaa.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.404ca9cafe6f81509540fe0730e0e123.js": "/precache-manifest.404ca9cafe6f81509540fe0730e0e123.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.764ccc25.chunk.css.map": "/static/css/2.764ccc25.chunk.css.map",
+    "static/css/main.ab098e70.chunk.css.map": "/static/css/main.ab098e70.chunk.css.map",
+    "static/media/geograph.css": "/static/media/geograph-web-thin.fc405405.eot"
   }
 }
