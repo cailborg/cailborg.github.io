@@ -10,7 +10,7 @@ const teams = {
       7: "Anthony Edwards",
       8: "JaVale McGee",
       9: "Kyle Kuzma",
-      10: "Kent Bazmore",
+      10: "Kent Bazemore",
       11: "T.J. Warren",
       12: "Larry Nance Jr.",
     },

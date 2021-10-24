@@ -72,9 +72,9 @@ async function main() {
       
     }
     all.sort((a, b) => b[3] - a[3]);
-      // console.log("sorted", all);
+      console.log(team, all);
       let sidepot = all.slice(5, 10);
-      console.log("sidepot", sidepot)
+      // console.log("sidepot", sidepot)
     //Sort the results by court position and score
 
     front.sort((a, b) => b[3] - a[3]);
