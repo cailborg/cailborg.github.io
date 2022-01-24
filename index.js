@@ -40,6 +40,8 @@ async function main() {
           return "Front";
         } else if (playerName === "Joe Harris") {
           return "Back";
+        } else if (playerName === "Jrue Holiday") {
+          return "Back";
         } else if (playerName === "Kent Bazemore") {
           return "Back";
         } else if (playerName === "LeBron James") {
@@ -95,7 +97,7 @@ async function main() {
     }
     let sixth = sixthMan(thirdBack, fourthFront);
 
-    // console.log("sixth", sixth);
+    // console.log(team, sixth);
     // Slice off the top 3 front court and top 2 back court players
     let slicedFront = front.slice(0, 3);
     let slicedBack = back.slice(0, 2);
