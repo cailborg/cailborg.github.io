@@ -53,7 +53,7 @@ async function main() {
     }
     front.sort((a, b) => b[1] - a[1]);
     back.sort((a, b) => b[1] - a[1]);
-    // console.log(front, back)
+    console.log(front, back)
 
     // Determine 6th man
 
@@ -132,7 +132,7 @@ async function main() {
       teamPlayersScoreBack,
       sumSidepot
     ]);
-    console.log(scores)
+    // console.log(scores)
   }
   // Do something with scores
   let scoreMain = [...scores].sort((a, b) => b[1] - a[1]);

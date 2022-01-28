@@ -179,5 +179,25 @@ const teams = {
     11: { name: "Malik Beasley", court: "back" },
     12: { name: "Jordan Clarkson", court: "back" },
   },
+  Scotty: {
+    1: {
+      name: "Stephen Curry",
+      court: "back",
+    },
+    2: {
+      name: "Bradley Beal",
+      court: "back",
+    },
+    3: { name: "Julius Randle", court: "front" },
+    4: { name: "Jaylen Brown", court: "front" },
+    5: { name: "Michael Porter Jr.", court: "front" },
+    6: { name: "Tyrese Haliburton", court: "back" },
+    7: { name: "Draymond Green", court: "front" },
+    8: { name: "RJ Barrett", court: "back" },
+    9: { name: "Jaren Jackson Jr.", court: "front" },
+    10: { name: "Kevin Porter Jr.", court: "back" },
+    11: { name: "Mo Bamba", court: "front" },
+    12: { name: "Lauri Markkanen", court: "front" },
+  },
 };
 module.exports = { teams };
