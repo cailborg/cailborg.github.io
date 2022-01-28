@@ -25,4 +25,4 @@ Scores are calculated using the following multipliers
 
 ---
 
-Use `yarn install` to install all dependencies and `yarn start` to run the calculation and generate index.html
+Use `yarn install` to install all dependencies, `yarn stats` to get a fresh copy of the data from [stats.nba.com](stats.nba.com) and `yarn start` to run the calculation and generate index.html
