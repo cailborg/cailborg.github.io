@@ -1,8 +1,10 @@
 var _ = require("lodash");
-const { teams } = require("./teams");
+const { teams } = require("./newTeams");
 var fs = require("fs");
-const json = JSON.parse(fs.readFileSync("./data.json", "utf8"));
-var stats = fs.statSync("./data.json", "utf8");
+const json = JSON.parse(
+  fs.readFileSync("./stats.nba.json", "utf8")
+).LeagueDashPlayerStats;
+var stats = fs.statSync("./stats.nba.json", "utf8");
 var mtime = JSON.stringify(stats.mtime);
 
 var formatted = mtime.replace(/"/, "").replace("T", " ").replace(/\..+/, "");
@@ -10,78 +12,48 @@ var formatted = mtime.replace(/"/, "").replace("T", " ").replace(/\..+/, "");
 // Store scores for each team here
 const scores = [];
 
+// If player doesn't exist, use blank template
+const blank = {
+  PLAYER_ID: 0,
+  PLAYER_NAME: "Benched Player",
+  REB: 0,
+  AST: 0,
+  TOV: 0,
+  STL: 0,
+  BLK: 0,
+  PTS: 0,
+};
+
 async function main() {
-  // Loop over each team and check whether a player in data.json matches and assign to that team
+  // Loop over each team and check whether a player in stats.nba.json matches and assign to that team
   for (var team in teams) {
-    let lineup = teams[team].player;
-    let values = Object.values(lineup);
     let front = [];
     let back = [];
-    let all = [];
+    let values = Object.values(teams[team]);
 
     for (const val of values) {
-      let match = Object.values(json).filter((x) => x.playerName === val)[0];
-      let sum = match
-        ? match.points * 1 +
-          match.rebounds * 1.5 +
-          match.assists * 1.5 +
-          match.steals * 2 +
-          match.blocks * 2 -
-          match.turnovers * 2
-        : 0;
+      var match = _.filter(json, function (x) {
+        return x.PLAYER_NAME === val.name;
+      });
+      let filtered = match[0] ?? blank;
+      // console.log(team, filtered.PLAYER_NAME)
+      let sum =
+        filtered.PTS * 1 +
+        filtered.REB * 1.5 +
+        filtered.AST * 1.5 +
+        filtered.STL * 2 +
+        filtered.BLK * 2 -
+        filtered.TOV * 2;
 
-      let name = match ? match.playerName : "Unknown Player";
-      // console.log(team, match)
-      // console.log( match ? match.playerName: "Player doesn't exist", sum)
-      function courtFinder(position, playerName) {
-        if (playerName === "Unknown Player") {
-          return "BENCHED";
-        } else if (playerName === "Jaylen Brown") {
-          return "Front";
-        } else if (playerName === "Joe Harris") {
-          return "Back";
-        } else if (playerName === "Jrue Holiday") {
-          return "Back";
-        } else if (playerName === "Kent Bazemore") {
-          return "Back";
-        } else if (playerName === "LeBron James") {
-          return "Front";
-        } else if (playerName === "Evan Fournier") {
-          return "Back";
-        } else if (playerName === "Dillon Brooks") {
-          return "Front";
-        } else if (playerName === "DeMar DeRozan") {
-          return "Back";
-        } else if (position === "SG" || position === "PG") {
-          return "Back";
-        } else {
-          return "Front";
-        }
-      }
-      let court = courtFinder(match ? match.position : "bench", name);
-      // console.log(match ? name : "Player doesn't exist", court);
-
-      // create the player array and push it into the team array
-
-      let data = [name, match ? match.position : "unknown", court, sum];
-      if (data[2] === "Front") {
-        front.push(data);
+      if (val.court === "back") {
+        back.push([filtered.PLAYER_NAME, sum]);
       } else {
-        back.push(data);
+        front.push([filtered.PLAYER_NAME, sum]);
       }
-      // Sort lineup by score
-      all.push(data);
-      
     }
-    all.sort((a, b) => b[3] - a[3]);
-      console.log(team, all);
-      let sidepot = all.slice(5, 10);
-      // console.log("sidepot", sidepot)
-    //Sort the results by court position and score
-
-    front.sort((a, b) => b[3] - a[3]);
-    back.sort((a, b) => b[3] - a[3]);
-    //  console.log(front, back);
+    front.sort((a, b) => b[1] - a[1]);
+    back.sort((a, b) => b[1] - a[1]);
+    // console.log(front, back)
 
     // Determine 6th man
 
@@ -89,7 +61,7 @@ async function main() {
     let thirdBack = back.slice(2, 3);
 
     function sixthMan(back, front) {
-      if (back[0][3] > front[0][3]) {
+      if (back[0][1] > front[0][1]) {
         return back;
       } else {
         return front;
@@ -97,18 +69,36 @@ async function main() {
     }
     let sixth = sixthMan(thirdBack, fourthFront);
 
-    // console.log(team, sixth);
+    //Calculate sidepot
+
+    let remainingBack = back.slice(2)
+    let remainingFront = front.slice(3)
+
+    let sumRemainingFront = remainingFront.reduce(
+      (accumulator, currentValue) => accumulator + currentValue[1],
+      0
+    );
+    let sumRemainingBack = remainingBack.reduce(
+      (accumulator, currentValue) => accumulator + currentValue[1],
+      0
+    );
+
+    let sumSidepot = sumRemainingBack + sumRemainingFront
+
+
     // Slice off the top 3 front court and top 2 back court players
     let slicedFront = front.slice(0, 3);
     let slicedBack = back.slice(0, 2);
 
+    // console.log(slicedFront, slicedBack);
+
     // Add up the scores
     let sumFront = slicedFront.reduce(
-      (accumulator, currentValue) => accumulator + currentValue[3],
+      (accumulator, currentValue) => accumulator + currentValue[1],
       0
     );
     let sumBack = slicedBack.reduce(
-      (accumulator, currentValue) => accumulator + currentValue[3],
+      (accumulator, currentValue) => accumulator + currentValue[1],
       0
     );
 
@@ -122,22 +112,15 @@ async function main() {
       []
     );
     var teamPlayersScoreBack = slicedBack.reduce(
-      (accumulator, currentValue) => accumulator.concat(currentValue[3]),
+      (accumulator, currentValue) => accumulator.concat(currentValue[1]),
       []
     );
     var teamPlayersScoreFront = slicedFront.reduce(
-      (accumulator, currentValue) => accumulator.concat(currentValue[3]),
+      (accumulator, currentValue) => accumulator.concat(currentValue[1]),
       []
     );
-
-    let sumSidepot = sidepot.reduce(
-      (accumulator, currentValue) => accumulator + currentValue[3],
-      0
-    );
-    // console.log(sumSidepot)
-
     let total = sumBack + sumFront;
-    // console.log ("total score", total)
+
     // push results to the store
     scores.push([
       team,
@@ -149,16 +132,16 @@ async function main() {
       teamPlayersScoreBack,
       sumSidepot
     ]);
+    console.log(scores)
   }
   // Do something with scores
   let scoreMain = [...scores].sort((a, b) => b[1] - a[1]);
-  // console.log("scores", scoreMain);
 
   // Sort sixth man leaderboard
-  let scoreSix = [...scores].sort((a, b) => b[4][0][3] - a[4][0][3]);
+  let scoreSix = [...scores].sort((a, b) => b[4][0][1] - a[4][0][1]);
 
   let scoreSidepot = [...scores].sort((a, b) => b[7] - a[7]);
-  // console.log(scoreSidepot)
+
   // Create HTML
 
   function buildHtml() {
@@ -256,13 +239,10 @@ async function main() {
         "<span>" +
         value[4][0][0] +
         "<span>" +
-        " (" +
-        value[4][0][2] +
-        ")" +
         "</span>" +
         "</span>" +
         "<span>" +
-        value[4][0][3] +
+        value[4][0][1] +
         "</span>" +
         "</li>";
     }

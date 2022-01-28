@@ -8,9 +8,11 @@
   "dependencies": {
     "isomorphic-fetch": "^2.2.1",
     "lodash": "^4.17.21",
+    "nba-api-client": "^1.1.1",
     "nodemon": "^1.19.4"
   },
   "scripts": {
     "start": "nodemon server.js"
-  }
+  },
+  "devDependencies": {}
 }
