@@ -53,7 +53,7 @@ async function main() {
     }
     front.sort((a, b) => b[1] - a[1]);
     back.sort((a, b) => b[1] - a[1]);
-    console.log(front, back)
+    console.log(team, front, back)
 
     // Determine 6th man
 
